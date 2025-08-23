@@ -1,19 +1,19 @@
 {
-  "name": "ligi214.github.io",
+  "name": "skvictoria.github.io",
   "version": "1.0.0",
-  "description": "Seongmin Lee's website.",
+  "description": "Seulgi Kim's website.",
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve --livereload"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ligi214/ligi214.github.io.git"
+    "url": "git+https://github.com/skvictoria/skvictoria.github.io.git"
   },
-  "author": "Seongmin Lee",
+  "author": "Seulgi Kim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ligi214/ligi214.github.io/issues"
+    "url": "https://github.com/skvictoria/skvictoria.github.io/issues"
   },
-  "homepage": "https://github.com/ligi214/ligi214.github.io#readme"
+  "homepage": "https://github.com/skvictoria/skvictoria.github.io#readme"
 }
