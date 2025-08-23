@@ -1,0 +1,19 @@
+<div><b>{{ patent.title }}</b></div>
+
+<div>
+	{% for person in patent.authors %}
+		{% if forloop.last == false %}
+			{% if person=="Seongmin Lee" %}<b>{% include person.html person=person %}</b>{% else %}{% include person.html person=person %}{% endif %}{% for p in patent.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %},
+		{% else if forloop.last == true %}
+			{% include person.html person=person %}{% for p in patent.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<div>
+	{% if patent.code %}
+		<i>{{ patent.code }}, {{ patent.year }}.<br></i>
+	{% endif %}
+</div>
+
+<div class="cv-spacer"></div>

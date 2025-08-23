@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu:300,700" rel="stylesheet">
+
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Share card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@SeongminLeee" />
+  <meta name="twitter:creator" content="@SeongminLeee" />
+  <meta property="og:url" content="https://www.seongmin.xyz/" />
+  <meta property="og:title" content="Seongmin Lee" />
+  <meta property="og:description" content="Seongmin Lee is a PhD student at Georgia Tech developing visual explanations and scalable algorithms for responsible AI." />
+  <meta property="og:image" content="http://www.seongmin.xyz/images/seongmin.jpg" />
+
+  <title>
+    
+      Transformer Explainer: Interactive Learning of Text-Generative Models — Seongmin Lee
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <!-- <a target="_blank" href="https://icons8.com/icon/Imv4VIewVo4o/sparkling">Shine</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/icons8-shine-ios-16-filled-32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/icons8-shine-ios-16-filled-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/icons8-shine-ios-16-filled-32.png">
+  <!-- <link rel="manifest" href="/icons/site.webmanifest?v=xQdLjRyXLj"> -->
+  <!-- <link rel="mask-icon" href="/icons/safari-pinned-tab.svg?v=xQdLjRyXLj" color="#313131"> -->
+  <!-- <link rel="shortcut icon" href="/icons/favicon.ico?v=xQdLjRyXLj"> -->
+  <meta name="msapplication-TileColor" content="#313131">
+  <!-- <meta name="msapplication-config" content="/icons/browserconfig.xml?v=xQdLjRyXLj"> -->
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Feed -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Seongmin Lee" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9C1B1EYNC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-H9C1B1EYNC');
+  </script>
+
+</head>
+
+  <body>
+    <header id="masthead">
+	<h1>
+  		<a href="/" title="Home">Seongmin Lee</a>
+  		<!-- <div class="mastheadspacer"/></div> -->
+   		<!-- <span class="masthead-slash">/</span> -->
+   		<!-- <small>PhD Student at Georgia Tech</small> -->
+		<!-- <a href="http://localhost:4000/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a> -->
+		<a href="http://localhost:4000/cv"><i class="fa fa-portrait icon icon-right-space"></i>CV</a>
+	</h1>
+	<nav>
+		<!-- <a href="/cv">CV</a>
+		<a href="/projects">Projects</a>
+		<a href="/everything-else">Everything Else</a> -->
+	</nav>
+</header>
+    <main>
+      <div id="paper-title-wrapper" class="l-screen">
+
+	<h1>Transformer Explainer: Interactive Learning of Text-Generative Models</h1>
+
+	<div id="venue-bar">
+		<div id="venue">
+			
+			Poster, IEEE Visualization Conference (VIS), 2024
+			
+		</div>
+		
+			<div id="paper-award"><i class="fas fa-trophy" aria-hidden="true"></i> Best Poster</div>
+		
+		
+		
+		
+		
+	</div>
+
+	<hr class="project-hr">
+
+    <div id="author-wrapper">
+        
+            <div class="author">
+                
+
+    <!-- <a href=""> -->
+        <img src="/images/people/person.png" class="author-image">
+    <!-- </a> -->
+
+
+                
+Aeree Cho
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href=""> -->
+        <img src="/images/people/person.png" class="author-image">
+    <!-- </a> -->
+
+
+                
+Grace C Kim
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href=""> -->
+        <img src="/images/people/person.png" class="author-image">
+    <!-- </a> -->
+
+
+                
+Alexander Karpekov
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://alechelbling.com/"> -->
+        <img src="/images/people/alec-helbling.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://alechelbling.com/">Alec Helbling</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://zijie.wang/"> -->
+        <img src="/images/people/zijie-j-wang.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://zijie.wang/">Zijie J. Wang</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.seongmin.xyz/"> -->
+        <img src="/images/people/seongmin-lee.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.seongmin.xyz/">Seongmin Lee</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.bhoov.com/"> -->
+        <img src="/images/people/benjamin-hoover.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.bhoov.com/">Benjamin Hoover</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.cc.gatech.edu/~dchau"> -->
+        <img src="/images/people/polo-chau.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+            </div>
+        
+    </div>
+
+	<!-- <hr class="project-hr"> -->
+
+	<div id="paper-materials" class="l-text">
+		
+		
+			
+		
+			
+			  <a href="/papers/transformer-explainer"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+			
+		
+			
+			  <a href="https://poloclub.github.io/transformer-explainer/"><div><i class="fas fa-play" aria-hidden="true"></i> Demo</div></a>
+			
+		
+			
+			  <a href="https://arxiv.org/pdf/2408.04619"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			  <a href="https://youtu.be/ECR4oAwocjs"><div><i class="fas fa-video" aria-hidden="true"></i> Recording</div></a>
+			
+		
+			
+		
+			
+		
+			
+			  <a href="https://github.com/poloclub/transformer-explainer"><div><i class="fas fa-code" aria-hidden="true"></i> Code</div></a>
+			
+		
+			
+		
+			
+		
+			
+			
+		
+	</div>
+
+</div>
+
+<h2>Abstract</h2>
+<div><p>While large language models (LLMs) have shown remarkable capability to generate convincing text across diverse domains, concerns around its potential risks have highlighted the importance of understanding the rationale behind text generation. We present LLM Attributor, a Python library that provides interactive visualizations for training data attribution of an LLM’s text generation. Our library offers a new way to quickly attribute an LLM’s text generation to training data points to inspect model behaviors, enhance its trustworthiness, and compare model-generated text with user-provided text. We describe the visual and interactive design of our tool and highlight usage scenarios for LLaMA2 models fine-tuned with two different datasets: online articles about recent disasters and finance-related question-answer pairs. Thanks to LLM Attributor’s broad support for computational notebooks, users can easily integrate it into their workflow to interactively visualize attributions of their models. For easier access and extensibility, we open-source LLM Attributor at https://github.com/poloclub/ LLM-Attribution. The video demo is available at https://youtu.be/mIG2MDQKQxM.</p>
+</div>
+
+
+<figure class="l-text">
+    <img class="single" src="/images/papers/24-transformer-explainer.png">
+    <figcaption class="single"></figcaption>
+</figure>
+
+
+<h2>BibTeX</h2>
+
+<div class="highlighter-rouge bibtex bibtex-wrapper">
+	<div class="highlight">
+		<pre>
+			
+@article{cho2024transformer,
+  title={{T}ransformer {E}xplainer: {I}nteractive {L}earning of {T}ext-{G}enerative {M}odels},
+  author={Cho, Aeree and Kim, Grace C. and Karpekov, Alexander and Helbling, Alec and Wang, Zijie J. and Lee, Seongmin and Hoover, Benjamin and Chau, Duen Horng},
+  journal={IEEE VIS},
+  year={2024}
+}
+		</pre>
+	</div>
+</div>
+
+
+    </main>
+    <footer>
+	<div id="footer-left">
+		<a href="mailto:seongmin@gatech.edu"><i class="fa-lg fa fa-envelope footer-icon" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/SeongminLeee"><i class="fa-lg fab fa-twitter footer-icon" aria-hidden="true"></i></a>
+		<a href="https://github.com/ligi214"><i class="fa-lg fab fa-github footer-icon" aria-hidden="true"></i></a>
+		<a href="https://www.linkedin.com/in/seongmin-lee-8b8a97209/"><i class="fa-lg fab fa-linkedin-in footer-icon" aria-hidden="true"></i></a>
+		<a href="https://scholar.google.com/citations?user=EA4jKm4AAAAJ&hl=ko&authuser=1"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
+		<br>
+		<br>
+		&copy; <time datetime="June 16, 2025">2025</time> Seongmin Lee
+	</div>
+	<div id="footer-right">
+		Seongmin Lee is a PhD student at Georgia Tech developing visual explanations and scalable algorithms for responsible AI.
+	</div>
+</footer>
+
+  </body>
+  
+</html>

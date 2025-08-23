@@ -1,0 +1,9 @@
+/* TEAM */
+	Author: Seongmin Lee
+	Twitter: @SeongminLeee
+	Location: Atlanta, United States
+
+/* SITE */
+    Language: English
+	Standards: HTML5, CSS3
+	Software: Jekyll

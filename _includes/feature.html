@@ -1,0 +1,52 @@
+<div class="cover">
+
+	<div class="cover-image">
+		<a href="{{ feature.url }}">
+			<img src="{{ feature.image }}">
+		</a>
+	</div>
+
+	<div class="cover-inner">
+
+		<div class="cover-top">
+
+			<div class="cover-title">
+				<a href="{{ feature.url }}">{{ feature.feature-title }}</a>
+			</div>
+
+			<div class="cover-subtitle">{{ feature.feature-description }}</div>
+
+			<div class="cover-venue">
+				{% if feature.venue-num %}
+				{% for num in feature.venue-num %}
+					{% if feature.venue-shorthand %}
+						{% assign venue = feature.venue-shorthand[num] %}
+					{% else if feature.venue %}
+						{% assign venue = feature.venue[num] %}
+					{% else %}
+						{% assign venue = feature.month[num] %}
+					{% endif %}
+					{% if forloop.last == false %}
+						{{ venue }} {{ feature.year[num] }},
+					{% else %}
+						{{ venue }} {{ feature.year[num] }}
+					{% endif %}
+				{% endfor %}
+				{% else %}
+					{% if feature.venue-shorthand %}
+						{{ feature.venue-shorthand }}
+					{% else if feature.venue %}
+						{{ feature.venue }}
+					{% else %}
+						{{ feature.month }}
+					{% endif %}
+					{{ feature.year }}
+				{% endif %}
+			</div>
+
+		</div>
+
+		
+
+	</div>
+</div>

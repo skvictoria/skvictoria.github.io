@@ -1,0 +1,25 @@
+- degree: "Ph.D. in Computational Science & Engineering"
+  years: "Aug. 2021 —"
+  years-extra: "Present"
+  institution: Georgia Institute of Technology
+  location: "Atlanta, GA"
+  advisor: Duen Horng (Polo) Chau
+  institution-url: https://www.gatech.edu/
+
+- degree: "B.S. in Electrical and Computer Engineering"
+  years: "Mar 2016 —"
+  years-extra: "Feb. 2021"
+  institution: Seoul National University
+  location: "Seoul, South Korea"
+  description: 
+    - "Graduated with Summa Cum Laude, Overall GPA: 3.91/4.00, Major GPA: 3.94/4.00"
+  institution-url: https://www.snu.ac.kr/
+
+- degree: "Math and Science Specialized High School for Gifted"
+  years: "Mar 2013 —"
+  years-extra: "Feb. 2016"
+  institution: Korea Science Academy of KAIST
+  location: "Busan, South Korea"
+  description: 
+    - "One year early entrance, Graduated with distinction in GPA"
+  institution-url: http://ksa.hs.kr

@@ -1,0 +1,73 @@
+- name: Sri Ranganathan Palaniappan
+  year: "Fall 2023 —"
+  year-extra: "Present"
+  degree: "B.S. in Computer Science, Georgia Institute of Technology"
+  url: https://www.linkedin.com/in/sri-ranganathan-palaniappan/
+
+- name: Kunal Mohindra
+  year: "Fall 2024 —"
+  year-extra: "Present"
+  degree: "B.S. in Computer Science, Georgia Institute of Technology"
+  url: https://www.linkedin.com/in/kunalmohindra/
+
+- name: Aishwarya Chakravarthy
+  year: "Fall 2023 —"
+  year-extra: "Fall 2024"
+  degree: "B.S. in Computer Science, Georgia Institute of Technology"
+  url: https://www.linkedin.com/in/achakrav6/
+
+- name: Grace Kim
+  year: "Fall 2023 —"
+  year-extra: "Fall 2024"
+  degree: "B.S. in Computer Science, Georgia Institute of Technology"
+  url: https://www.linkedin.com/in/chaeyeonggracekim/
+
+- name: Alexander Karpekov
+  year: "Fall 2023 —"
+  year-extra: "Fall 2024"
+  degree: "M.S. in Computer Science, Georgia Institute of Technology"
+  now-position: CS Ph.D.
+  now-institution: Georgia Institute of Technology
+  url: https://www.alexkarpekov.com
+
+- name: Aeree Cho
+  year: "Fall 2023 —"
+  year-extra: "Fall 2024"
+  degree: "M.S. in Computer Science, Georgia Institute of Technology"
+  now-position: ML Ph.D.
+  now-institution: Georgia Institute of Technology
+  url: https://aereeeee.github.io
+
+- name: David Munechika
+  year: "Fall 2021 —"
+  year-extra: "Fall 2023"
+  degree: "B.S. in Computer Science, Georgia Institute of Technology"
+  now-position: Machine Learning Engineer
+  now-institution: Apple
+  url: https://www.linkedin.com/in/dmunechika/
+
+- name: Kevin Li
+  year: "Fall 2021 —"
+  year-extra: "Spr. 2023"
+  degree: "B.S. in Computer Science and Biomedical Engineering, Georgia Institute of Technology"
+  now-position: ML Ph.D.
+  now-institution: Carnegie Mellon University
+  url: https://www.linkedin.com/in/kevinyli/
+
+- name: Alex Yang
+  year: "Fall 2021 —"
+  year-extra: "Spr. 2023"
+  degree: "M.S. in Computer Science, Georgia Institute of Technology"
+  now-position: CS Ph.D.
+  now-institution: Georgia Institute of Technology
+  url: https://alexanderyang.me/
+
+- name: Omar Shaikh
+  year: "Fall 2021 —"
+  year-extra: "Spr. 2022"
+  degree: "B.S. in Computer Science, Georgia Institute of Technology"
+  awards:
+    - Sigma Xi Best Undergraduate Research Award, Georgia Institute of Technology
+  now-position: CS Ph.D.
+  now-institution: Stanford University
+  url: http://oshaikh.com/

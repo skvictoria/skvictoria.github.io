@@ -1,0 +1,19 @@
+{
+  "name": "ligi214.github.io",
+  "version": "1.0.0",
+  "description": "Seongmin Lee's website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve --livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ligi214/ligi214.github.io.git"
+  },
+  "author": "Seongmin Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ligi214/ligi214.github.io/issues"
+  },
+  "homepage": "https://github.com/ligi214/ligi214.github.io#readme"
+}

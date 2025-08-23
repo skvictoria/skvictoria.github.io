@@ -1,0 +1,34 @@
+title: Seulgi Kim
+tagline: PhD Student at Georgia Tech
+url: https://www.seulgi.xyz
+baseurl: ""
+# gems: [jekyll-paginate]
+# paginate: 5
+
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# permalink: "/:title"
+# relative_permalinks: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+author:
+  name: Seulgi Kim
+  url: http://www.seulgi.xyz/
+  email: seulgi.kim@gatech.edu
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'syntax'
+
+excerpt_separator: <!--more-->
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from

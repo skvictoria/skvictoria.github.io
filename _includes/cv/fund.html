@@ -1,0 +1,18 @@
+<div class="cv-left-date">{{ fund.years }}</div>
+<div>{% if fund.title-url %}<a href="{{ fund.title-url }}"><b>{{ fund.title }}</b></a>{% else %}<b>{{ fund.title }}</b>{% endif %}</div>
+<div><a href="{{ fund.name-url }}">{{ fund.name }}</a></div>
+
+<div class="cv-description">
+Co-PIs: 
+{% for person in fund.co-pis %}
+	{% if forloop.last == false %}
+		{% include person.html person=person %},	
+	{% else if forloop.last == true %}
+		{% include person.html person=person %}
+	{% endif %}
+{% endfor %}
+</div>
+<!-- <div class="cv-description">Funded {{ fund.amount }}</div> -->
+<div class="cv-description">{{ fund.description }}</div>
+
+<div class="cv-spacer"></div>

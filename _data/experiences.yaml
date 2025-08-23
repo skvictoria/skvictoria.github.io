@@ -1,0 +1,83 @@
+- institution: Adobe Inc.
+  location: "San Jose, CA"
+  position: AI/ML Intern - Machine Learning Engineer/Researcher
+  mentors: 
+    - Oliver Brdiczka
+    - Tianyuan Cao
+    - Anelise Newman
+    - Gahye Park
+    - Eric Slyman
+  year: "May 2025 — Present"
+  type: industry
+
+- institution: JP Morgan Chase & Co.
+  location: "New York, NY"
+  position: Summer Associate, Research Teechnologies Program
+  mentors: 
+    - Hsiang Hsu
+    - Chun-Fu (Richard) Chen
+  year: "May 2024 — Aug. 2024"
+  type: industry
+
+- institution: Cisco Systems, Inc.
+  location: "San Jose, CA"
+  position: Ph.D. Intern
+  mentors: Ali Payani
+  year: "May 2022 — Jul. 2022"
+  # description: "Led model interpretation and visualization development for an open-source project for Responsible AI"
+  type: industry
+
+- institution: Georgia Institute of Technology
+  location: "Atlanta, GA"
+  position: Graduate Research Assistant
+  group: School of Computational Science and Engineering
+  year: "Aug. 2021 —"
+  year-extra: "Present"
+  mentors: 
+    - Duen Horng (Polo) Chau
+  advisor: true
+  # description: "Member of the Polo Club of Data Science where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
+  institution-url: http://gatech.edu
+  group-url: http://cse.gatech.edu
+  type: academic
+
+- institution: Seoul National University
+  location: "Seoul, South Korea"
+  position: Undergraduate Research Intern
+  group: Data Mining Lab
+  year: "Jan. 2020 —"
+  year-extra: "Feb. 2021"
+  mentors:
+    - U Kang
+  advisor: true
+  description: ""
+  institution-url: http://www.snu.ac.kr
+  group-url: https://datalab.snu.ac.kr
+  type: academic
+
+- institution: Seoul National University
+  location: "Seoul, South Korea"
+  position: Undergraduate Research Intern
+  group: Communication and Machine Learning Laboratory
+  year: "Sep. 2019 —"
+  year-extra: "Apr. 2020"
+  mentors:
+    - Jungwoo Lee
+  advisor: true
+  description: ""
+  institution-url: http://www.snu.ac.kr
+  group-url: http://cml.snu.ac.kr
+  type: academic
+
+- institution: The University of Tokyo
+  location: "Tokyo, Japan"
+  position: Undergraduate Research Intern
+  group: Biomedical Precision Laboratory
+  year: "Jul. 2018 —"
+  year-extra: "Aug. 2018"
+  mentors:
+    - Keiichi Nakagawa
+    - Ayumu Ishijima
+  advisor: true
+  description: "Constructed a microscopic motion-picture laser camera with sub-nano spatial/temporal resolution, Investigated interaction between human cells and acoustic waves in collaboration with students majoring in biology and physics"
+  type: academic

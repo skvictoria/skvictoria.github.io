@@ -1,0 +1,29 @@
+<div>
+	{% if book.url %}
+		<a href="{{ book.url }}"><b>{{ book.title }}</b></a>
+	{% else %}
+		<b>{{ book.title }}</b>
+	{% endif %}
+</div>
+
+<div>
+	{% for person in book.authors %}
+		{% if forloop.last == false %}
+			{% if person=="Seongmin Lee" %}<b>{% include person.html person=person %}</b>{% else %}{% include person.html person=person %}{% endif %}{% for p in book.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %},
+		{% else if forloop.last == true %}
+			{% include person.html person=person %}{% for p in book.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<div>
+	{% if book.publisher %}
+		<i>{{ book.publisher }}, {{ book.year }}.<br></i>
+	{% endif %}
+</div>
+
+<div class="cv-description">
+	{% if book.description %}{{ book.description }}{% endif %}
+</div>
+
+<div class="cv-spacer"></div>

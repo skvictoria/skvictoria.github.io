@@ -1,0 +1,26 @@
+- title: "Democratizing Visual AI: Enhancing Efficiency and Usability of Large Vision Models for Fostering Under-Resourced Access"
+  years: "2024"
+  name: "NSF Medium Grant"
+  co-pis:
+    - Judy Hoffman
+    - Celine Lin
+    - Duen Horng (Polo) Chau
+  amount: "$1.2M"
+  description: Co-authored winning proposal resulting in $1.2M NSF grant. Contributed to experiment with on-device implementation of the CLIP model.
+
+- title: "Scaling Up Educators' Capacities: Automating Visualization Assessment via Generative AI"
+  years: "2023"
+  name: "Google Award for Inclusion Research"
+  co-pis:
+    - Duen Horng (Polo) Chau
+  amount: "$60,000"
+  title-url: https://research.google/outreach/air-program/
+  name-url: https://research.google/outreach/air-program/
+  description: Co-authored a proposal resulting in $60k resesarch funding from Google.
+
+- title: Cisco Research Funding
+  years: "2022"
+  co-pis:
+    - Duen Horng (Polo) Chau
+  amount: "$200,000"
+  description: Co-authored a proposal resulting in $200k resesarch funding on responsible AI from Cisco.

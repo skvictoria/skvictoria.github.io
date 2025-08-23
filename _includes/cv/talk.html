@@ -1,0 +1,10 @@
+<div><b>{{ title.name }}</b></div>
+
+{% for talk in title.items %}
+<div class="cv-left-date">{{ talk.month }} {{ talk.year }}</div>
+<div>{{ talk.location }}</div>
+{% if talk.description %}{% assign description=talk.description %}{% endif %}
+{% endfor %}
+<div class="cv-description">{{ description }}</div>
+
+<div class="cv-spacer"></div>

@@ -1,0 +1,29 @@
+- venue: Annual Meeting of the Association for Computational Linguistics
+  venue-shorthand: ACL
+  years:
+    - year: 2025
+      url: https://aclanthology.org
+
+- venue: ACM CHI conference on Human Factors in Computing Systems
+  venue-shorthand: CHI
+  years:
+    - year: 2025
+      url: https://chi2025.acm.org
+
+- venue: IEEE Pacific Visualization Conference
+  venue-shorthand: PacificVis
+  years:
+    - year: 2025
+      url: https://pacificvis2025.github.io/pages/index.html
+
+- venue: 7th Workshop on Visualization for AI Explainability
+  venue-shorthand: VISxAI
+  years:
+    - year: 2024
+      url: https://visxai.io
+      
+- venue: ACM Conference On Computer-Supported Cooperative Work and Social Computing
+  venue-shorthand: CSCW
+  years:
+    - year: 2023
+      url: https://cscw.acm.org/2023/

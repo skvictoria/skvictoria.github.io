@@ -1,0 +1,8 @@
+/* TEAM */
+	Author: Seulgi Kim
+	Location: Atlanta, United States
+
+/* SITE */
+    Language: English
+	Standards: HTML5, CSS3
+	Software: Jekyll

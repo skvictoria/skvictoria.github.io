@@ -1,0 +1,51 @@
+- institution: Georgia Institute of Technology
+  position: Graduate Teaching Assistant
+  location: "Atlanta, GA"
+  year: Spring 2024
+  class: "Data and Visual Analytics (CSE6242)"
+  instructor: Duen Horng (Polo) Chau, Mahdi Roozbahani
+  description: "Online course with 1201 graduate students enrolled."
+  institution-url: http://gatech.edu
+  class-url: https://poloclub.github.io/cse6242-2024spring-online/
+  ta: true
+
+- institution: Georgia Institute of Technology
+  position: Graduate Teaching Assistant
+  location: "Atlanta, GA"
+  year: Fall 2022
+  class: "Data and Visual Analytics (CSE6242)"
+  instructor: Duen Horng (Polo) Chau, Mahdi Roozbahani
+  description: "Online course with 1146 graduate students enrolled."
+  institution-url: http://gatech.edu
+  class-url: https://poloclub.github.io/cse6242-2022fall-online/
+  ta: true
+
+- institution: LG Chem
+  position: Lab Session Lecturer
+  location: "Seoul, South Korea"
+  year: "Jan. 2021"
+  class: "Deep Learning Course"
+  ta: false
+
+- institution: SK Hynix
+  position: Lab Session Lecturer
+  location: "Seoul, South Korea"
+  year: "Nov. 2020"
+  class: "Deep Learning Course"
+  ta: false
+
+- institution: Seoul National University
+  position: Undergraduate Student Tutor
+  location: "Seoul, South Korea"
+  year: "Fall 2020, Fall 2019"
+  class: "Introduction to Algorithm"
+  description: "Selected as tutor for two consecutive years based on interviews and academic performanace"
+  ta: true
+
+- institution: Seoul National University
+  position: Undergraduate Student Tutor
+  location: "Seoul, South Korea"
+  year: "Spring 2017"
+  class: "Introduction to Physics I"
+  description: "Selected as tutor based on academic performance"
+  ta: false
