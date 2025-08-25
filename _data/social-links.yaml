@@ -1,39 +1,31 @@
 - id: email
-  description: "seongmin@gatech.edu"
+  description: "seulgi.kim@gatech.edu"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:seongmin@gatech.edu"
+  url: "mailto:seulgi.kim@gatech.edu"
   on-homepage: true
   cv-group: 1
 
-- id: twitter
-  description: "@SeongminLeee"
-  color: "#1da1f2"
-  class: "fab fa-twitter icon"
-  url: https://twitter.com/SeongminLeee
-  on-homepage: true
-  cv-group: 2
-
 - id: github
-  description: "@ligi214"
+  description: "@skvictoria"
   color: "#6e5494"
   class: "fab fa-github icon"
-  url: "https://github.com/ligi214"
+  url: "https://github.com/skvictoria"
   on-homepage: true
   cv-group: 2
 
 - id: linkedin
-  description: "Seongmin Lee"
+  description: "Seulgi Kim"
   color: "#0077b5"
   class: "fab fa-linkedin-in icon"
-  url: "https://www.linkedin.com/in/seongmin-lee-8b8a97209/"
+  url: "https://www.linkedin.com/in/seulgi-kim-647743259/"
   on-homepage: true
 
 - id: home
-  description: "seongmin.xyz"
+  description: "skvictoria.github.io"
   color: "#515151"
   class: "fas fa-home icon"
-  url: "http://www.seongmin.xyz"
+  url: "http://www.skvictoria.github.io"
   on-homepage: false
   cv-group: 1
 
@@ -41,7 +33,7 @@
   description: "Google Scholar"
   color: "#515151"
   class: "fa fa-graduation-cap icon"
-  url: "https://scholar.google.com/citations?user=EA4jKm4AAAAJ"
+  url: "https://scholar.google.com/citations?user=AumZXEQAAAAJ&hl=en"
   on-homepage: true
   cv-group: 2
 

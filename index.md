@@ -5,8 +5,6 @@ title: Home
 
 <div id="intro-wrapper" class="l-text">
 	<div id="intro-title-wrapper">
-		<div id="intro-image-wrapper">
-			<img id="intro-image" src="/images/seulgi.png"></div>
 		<div id="intro-title-text-wrapper">
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
@@ -18,25 +16,22 @@ title: Home
 					<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 				</div>
 			</div>
-			<h1 id="intro-title">Hi, I'm Seulgi Kim</h1>
+			<h1 id="intro-title">Hi! I'm Seulgi Kim</h1>
+		</div>
+		<div id="intro-image-wrapper">
+			<img id="intro-image" src="/images/seulgi.png">
 		</div>
 	</div>
 	<!-- <div id="everything-else" class="l-middle">
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div> -->
 	<div>
-		My research lies with the intersection of computer vision and multi-modal learning, with a particular emphasis on modeling temporal and semantic relationships between actions in long-term video sequences.
+		My research lies with the intersection of <b>computer vision</b> and <b>multi-modal learning</b>, with a particular emphasis on modeling temporal and semantic relationships between actions in long-term video sequences.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
 		I am pursuing my Ph.D. at Georgia Tech, working with <a href="https://alregib.ece.gatech.edu/">Ghassan AlRegib</a>.
 		I received my B.S. from Seoul National University, where I was supported by <a href="https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp">Hyundai Research Scholarship</a>.
-
-	</div>
-	<div style="height: 1rem"></div>
-	<div>
-	 	I have collaborated with researchers and developers at JP Morgan Chase & Co., Cisco Systems, Google, IBM Research, ADP, and AVAST Software.
-		<!-- I have collaborated with designers, developers, artists, and scientists while working at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/apple.svg"> Apple, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/microsoft.svg"> Microsoft Research, <img class="intro-logo" style="width: 24px" src="/images/nasa.svg"> NASA Jet Propulsion Lab, and <img class="intro-logo" style="width: 24px;" src="/images/pnnl.svg"> Pacific Northwest National Lab. -->
 	</div>
 </div>
 
