@@ -7,9 +7,6 @@ title: Home
 	<div id="intro-title-wrapper">
 		<div id="intro-image-wrapper">
 			<img id="intro-image" src="/images/seulgi.png"></div>
-		<div id="intro-title-text-wrapper">
-			<h1 id="intro-title">Hi, I'm Seulgi Kim</h1>
-			<div id="intro-subtitle">PhD student at Georgia Tech 🐝</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
@@ -20,22 +17,21 @@ title: Home
 					<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 				</div>
 			</div>
+		<div id="intro-title-text-wrapper">
+			<h1 id="intro-title">Hi, I'm Seulgi Kim</h1>
 		</div>
 	</div>
-	<!-- <div id="everything-else" class="l-middle">
+	<div id="everything-else" class="l-middle">
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
-	</div> -->
+	</div>
 	<div>
-		My research bridges <span class="intro-ml">machine learning</span> and <span class="intro-hci">human-computer interaction</span>
-		to advance <b>Responsible AI</b>.
-		I design and develop
-		<b>novel visual explanations</b> for complex machine learning models, and
-		<b>scalable algorithms</b> that promote accountable use of AI.
+		My research lies with the intersection of computer vision and multi-modal learning, with a particular emphasis on modeling temporal and semantic relationships between actions in long-term video sequences.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I am pursuing my Ph.D. at Georgia Tech, working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>.
-		I received my B.S. from Seoul National University, where I was supported by <a href="https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp">Presidential Science Scholarship</a>.
+		I am pursuing my Ph.D. at Georgia Tech, working with <a href="https://alregib.ece.gatech.edu/">Ghassan AlRegib</a>.
+		I received my B.S. from Seoul National University, where I was supported by <a href="https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp">Hyundai Research Scholarship</a>.
+
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
