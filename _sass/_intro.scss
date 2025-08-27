@@ -1,5 +1,29 @@
 $cv-icon-aspect-ratio: 1.33;
 
+#top-right-buttons {
+position: absolute;
+top: 20px;
+right: 20px;
+display: flex;
+gap: 1rem; /* spacing between buttons */
+}
+
+#top-right-buttons .top-button {
+text-decoration: none;
+font-weight: bold;
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-radius: 6px;
+background-color: #f8f8f8;
+color: #333;
+transition: background-color 0.2s ease;
+}
+
+#top-right-buttons .top-button:hover {
+background-color: #e6e6e6;
+}
+  
+
 #intro-wrapper > div, .intro-text {
 	font-size: 1.2em;
 }

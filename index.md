@@ -2,6 +2,14 @@
 layout: home
 title: Home
 ---
+<div id="top-right-buttons">
+  <a href="{{ site.url }}/teaching" class="top-button">
+    <i class="fa fa-chalkboard-teacher icon-right-space"></i>Teaching
+  </a>
+  <a href="{{ site.url }}/cv/#publications" class="top-button">
+    <i class="fa fa-book icon-right-space"></i>Publications
+  </a>
+</div>
 
 <div id="intro-wrapper" class="l-text">
 	<div id="intro-title-wrapper">
@@ -16,7 +24,7 @@ title: Home
 					<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 				</div>
 			</div>
-			<h1 id="intro-title">Hi! I'm Seulgi Kim 😎</h1>
+			<h1 id="intro-title">Hi! I'm Seulgi Kim  </h1>
 		</div>
 		<div id="intro-image-wrapper">
 			<img id="intro-image" src="/images/seulgi.png">
