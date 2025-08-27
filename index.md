@@ -53,7 +53,7 @@ title: Home
 
 {::nomarkdown}
 {% for degree in site.data.news %}
-{% include cv/degree.html degree=degree %}
+{% include cv/news.html degree=degree %}
 {% endfor %}
 {:/}
 
