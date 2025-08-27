@@ -3,17 +3,18 @@
 
 - degree: "Our paper Accepted at ICIP 2025!"
   years: "May 2025"
-  institution: Check out Paper
+  institution: Check out our Paper
   institution-url: https://skvictoria.github.io/mM-ant/
 
-- degree: "I co-founded and taught the ECE2806 (AI Foundation) Class!"
-  years: "May 2025"
-  institution: Check out Paper
-  institution-url: https://skvictoria.github.io/mM-ant/
+- degree: "I co-founded and taught the ECE 2806 (AI Foundation) Class!"
+  years: "January 2024 -"
+  years-extra: "May 2025"
+  institution: My students trained their own GPT-2 LLMs.
+  institution-url: https://ece.gatech.edu/news/2025/05/ai-makerspace-turns-one-students-charting-course
 
 - degree: "Our paper on Human Activity Datasets that we developed from scratch is now available on arXiV!"
   years: "April 2025"
-  institution: Check out Paper
+  institution: Check out our Paper
   institution-url: https://alregib.ece.gatech.edu/software-and-datasets/darai-daily-activity-recordings-for-artificial-intelligence-and-machine-learning/
 
 - degree: "I am honored to receive 2025 GTA Excellence Award, including 1,000 dollars and plaque!"
@@ -24,7 +25,7 @@
 
 - degree: "Our paper Accepted as an ORAL presentation at WACV 2025!"
   years: "October 2024"
-  institution: Check out Paper
+  institution: Check out our Paper
   institution-url: https://arxiv.org/pdf/2410.23200
 
 - degree: "I started Ph.D. at Georgia Tech, working with Dr. Ghassan AlRegib."

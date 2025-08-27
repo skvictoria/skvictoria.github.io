@@ -3,7 +3,7 @@ $cv-icon-aspect-ratio: 1.33;
 #top-right-buttons {
 position: absolute;
 top: 20px;
-right: 200px;
+right: 400px;
 display: flex;
 gap: 1rem; /* spacing between buttons */
 }
@@ -11,10 +11,8 @@ gap: 1rem; /* spacing between buttons */
 #top-right-buttons .top-button {
 text-decoration: none;
 padding: 6px 12px;
-border: 1px solid #ccc;
 border-radius: 6px;
-background-color: #dda6cb;
-color: #333;
+color: #f0a4d6;
 transition: background-color 0.2s ease;
 }
 
