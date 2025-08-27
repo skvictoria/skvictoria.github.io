@@ -26,7 +26,7 @@ title: Home
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div> -->
 	<div>
-		My research lies with the intersection of <b>computer vision</b> and <b>multi-modal learning</b>, with a particular emphasis on modeling temporal and semantic relationships between actions in long-term video sequences.
+		My research aims to unlock "how/why" AI understands video. Specifically, I aim to advance <b>computer vision</b> and <b>multi-modal learning</b> algorithms to interpret temporal and semantic relations between human actions in long-term videos.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
