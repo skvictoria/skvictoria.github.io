@@ -16,7 +16,7 @@ title: Home
 					<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 				</div>
 			</div>
-			<h1 id="intro-title">Hi! I'm Seulgi Kim</h1>
+			<h1 id="intro-title">Hi! I'm Seulgi Kim 😎</h1>
 		</div>
 		<div id="intro-image-wrapper">
 			<img id="intro-image" src="/images/seulgi.png">
