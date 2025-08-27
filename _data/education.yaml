@@ -1,25 +1,25 @@
-- degree: "Ph.D. in Computational Science & Engineering"
-  years: "Aug. 2021 —"
+- degree: "Ph.D. in Electrical and Computer Engineering"
+  years: "Aug 2024 —"
   years-extra: "Present"
   institution: Georgia Institute of Technology
   location: "Atlanta, GA"
-  advisor: Duen Horng (Polo) Chau
+  advisor: Ghassan AlRegib
   institution-url: https://www.gatech.edu/
 
-- degree: "B.S. in Electrical and Computer Engineering"
+- degree: "MS in Electrical and Computer Engineering"
+  years: "Aug 2023—"
+  years-extra: "July. 2024"
+  institution: Georgia Institute of Technology
+  location: "Atlanta, GA"
+  description: 
+    - "GPA: 4.0/4.0"
+  institution-url: https://www.gatech.edu/
+
+- degree: "B.S. in Biosystems Engineering / Computer Science and Engineering"
   years: "Mar 2016 —"
   years-extra: "Feb. 2021"
   institution: Seoul National University
   location: "Seoul, South Korea"
   description: 
-    - "Graduated with Summa Cum Laude, Overall GPA: 3.91/4.00, Major GPA: 3.94/4.00"
+    - "Supported by Hyundai Motor Group Research Scholarship (Tuition and Stipend)"
   institution-url: https://www.snu.ac.kr/
-
-- degree: "Math and Science Specialized High School for Gifted"
-  years: "Mar 2013 —"
-  years-extra: "Feb. 2016"
-  institution: Korea Science Academy of KAIST
-  location: "Busan, South Korea"
-  description: 
-    - "One year early entrance, Graduated with distinction in GPA"
-  institution-url: http://ksa.hs.kr

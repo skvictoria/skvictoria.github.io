@@ -1,6 +1,6 @@
 title: Seulgi Kim
 tagline: PhD Student at Georgia Tech
-url: https://www.seulgi.xyz
+url: https://skvictoria.github.io/
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -15,7 +15,7 @@ sass:
 
 author:
   name: Seulgi Kim
-  url: http://www.seulgi.xyz/
+  url: https://skvictoria.github.io/
   email: seulgi.kim@gatech.edu
 
 markdown: kramdown
