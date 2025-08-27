@@ -30,13 +30,25 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I am pursuing my Ph.D. at Georgia Tech, working with <a href="https://alregib.ece.gatech.edu/">Ghassan AlRegib</a>.
-		I received my B.S. from Seoul National University, where I was supported by <a href="https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp">Hyundai Research Scholarship</a>.
+		I am a second year Ph.D. student at Georgia Tech, advised by <a href="https://alregib.ece.gatech.edu/">Ghassan AlRegib</a>.
+		I received my B.S. from Seoul National University, where I was supported by <a href="https://www.hyundai-ngv.com/en/hrd/sub01.do">Hyundai Motor Group Research Scholarship</a>.
+	</div>
+	<div style="height: 1rem"></div>
+	<div>
+		Before joining Tech, I worked as a Research Engineer at Hyundai Motor Company for 3 years, where I developed AI models for perception and localization in autonomous driving. We launched <a href="https://youtu.be/0W69PArCRMU?si=Wz9GFV9O9ETwUw7W&t=81" target="_blank">Lv.4 Autonomous Driving Pilot Services</a> for RoboTaxi, RoboShuttle, and RoboTruck.
 	</div>
 </div>
 
 <hr class="l-middle home-hr">
+## Education
 
+{::nomarkdown}
+{% for degree in site.data.education %}
+{% include cv/degree.html degree=degree %}
+{% endfor %}
+{:/}
+
+<hr class="l-middle home-hr">
 <h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
 
 <!-- vertical spacing -->
