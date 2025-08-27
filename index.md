@@ -26,7 +26,7 @@ title: Home
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div> -->
 	<div>
-		My research aims to unlock "how/why" AI understands video. Specifically, I aim to advance <b>computer vision</b> and <b>multi-modal learning</b> algorithms to interpret temporal and semantic relations between human actions in long-term videos.
+		My research aims to explain "how/why" AI understands video. Specifically, I aim to advance <b>computer vision</b> and <b>multi-modal learning</b> algorithms to interpret temporal and semantic relations between human actions in long-term videos.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
@@ -40,6 +40,15 @@ title: Home
 </div>
 
 <hr class="l-middle home-hr">
+
+## Recent News
+
+{::nomarkdown}
+{% for degree in site.data.news %}
+{% include cv/degree.html degree=degree %}
+{% endfor %}
+{:/}
+
 ## Education
 
 {::nomarkdown}
