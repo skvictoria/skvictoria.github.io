@@ -1,6 +1,5 @@
 /* TEAM */
-	Author: Seongmin Lee
-	Twitter: @SeongminLeee
+	Author: Seulgi Kim
 	Location: Atlanta, United States
 
 /* SITE */
