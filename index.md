@@ -62,10 +62,9 @@ title: Home
 {% endfor %}
 {:/}
 
-<hr class="l-middle home-hr">
+<!-- <hr class="l-middle home-hr">
 <h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
 
-<!-- vertical spacing -->
 <div style="height:10px"></div>
 
 <div class="cover-wrapper cover-wrapper-3-col l-page">
@@ -75,7 +74,7 @@ title: Home
 			{% include feature.html feature=feature %}
 		{% endif %}
 	{% endfor %}
-</div>
+</div> -->
 
 
 

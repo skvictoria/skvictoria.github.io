@@ -12,7 +12,7 @@
   institution: My students trained their own GPT-2 LLMs.
   institution-url: https://ece.gatech.edu/news/2025/05/ai-makerspace-turns-one-students-charting-course
 
-- degree: "Our paper on Human Activity Datasets is now on arXiV!"
+- degree: "Our paper on Human Activity Video Datasets is now on arXiV!"
   years: "April 2025"
   institution: Check out our Paper
   institution-url: https://alregib.ece.gatech.edu/software-and-datasets/darai-daily-activity-recordings-for-artificial-intelligence-and-machine-learning/
@@ -32,7 +32,8 @@
   years: "August 2024"
 
 - degree: "I am happy to work in Amazon as a Software Engineer Intern, See you in Austin!"
-  years: "May 2024"
+  years: "May 2024 -"
+  years-extra: "August 2024"
 
 - degree: "I started MS at Georgia Tech!"
   years: "August 2023"
