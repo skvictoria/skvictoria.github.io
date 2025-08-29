@@ -5,7 +5,7 @@ title: Home
 <div id="top-right-buttons">
   <a href="{{ site.url }}/cv/#publications" class="top-button">Research</a>
   <a href="{{ site.url }}/teaching" class="top-button">Teaching</a>
-  <a href="{{ site.url }}/coding" class="top-button">Coding</a>
+  <a href="{{ site.url }}/coding" class="top-button">Hobby</a>
 </div>
 
 <div id="intro-wrapper" class="l-text">
