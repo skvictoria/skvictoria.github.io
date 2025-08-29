@@ -10,7 +10,7 @@ authors:
   - Harsha Karanth
   - Alec Helbling
   - Pratham Mehta
-  - Seongmin Lee
+  - Seulgi Kim
   - Duen Horng (Polo) Chau
 venue: CVPR 24 Workshop on Virtual Try-On
 venue-shorthand: CVPR

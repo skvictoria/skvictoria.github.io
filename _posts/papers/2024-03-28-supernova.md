@@ -7,7 +7,7 @@ title: "SuperNOVA: Design Strategies and Opportunities for Interactive Visualiza
 authors: 
   - Zijie J. Wang
   - David Munechika
-  - Seongmin Lee
+  - Seulgi Kim
   - Duen Horng (Polo) Chau
 venue: Extended Abstracts on ACM Human Factors in Computing Systems
 venue-shorthand: CHI

@@ -6,7 +6,7 @@ permalink: papers/clickdiffusion
 title: "ClickDiffusion: Harnessing LLMs for Interactive Precise Image Editing"
 authors: 
   - Alec Helbling
-  - Seongmin Lee
+  - Seulgi Kim
   - Duen Horng (Polo) Chau
 venue: CVPR 2024 Workshop on AI for Content Creation Workshop
 venue-shorthand: CVPR

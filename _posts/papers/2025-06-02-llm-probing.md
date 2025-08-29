@@ -5,7 +5,7 @@ categories: papers
 permalink: papers/llm-hallucination-probing
 title: "Probing LLM Hallucination from Within: Perturbation-Driven Approach via Internal Knowledge"
 authors: 
-  - Seongmin Lee
+  - Seulgi Kim
   - Hsiang Hsu
   - Chun-Fu Chen
   - Duen Horng (Polo) Chau
@@ -25,7 +25,7 @@ bibtex: |-
 
   @article{lee2025probing,
     title={Probing LLM Hallucination from Within: Perturbation-Driven Approach via Internal Knowledge},
-    author={Seongmin Lee and Hsiang Hsu and Chun-Fu Chen and and Duen Horng Chau},
+    author={Seulgi Kim and Hsiang Hsu and Chun-Fu Chen and and Duen Horng Chau},
     journal={arXiv preprint arXiv:2411.09689},
     year={2025},
     url={https://arxiv.org/abs/2411.09689}, 

@@ -54,15 +54,7 @@ title: Home
 {% endfor %}
 {:/}
 
-## Education
-
-{::nomarkdown}
-{% for degree in site.data.education %}
-{% include cv/degree.html degree=degree %}
-{% endfor %}
-{:/}
-
-<!-- <hr class="l-middle home-hr">
+<hr class="l-middle home-hr">
 <h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
 
 <div style="height:10px"></div>
@@ -76,7 +68,13 @@ title: Home
 	{% endfor %}
 </div> -->
 
+## Education
 
+{::nomarkdown}
+{% for degree in site.data.education %}
+{% include cv/degree.html degree=degree %}
+{% endfor %}
+{:/}
 
 
 
@@ -86,4 +84,4 @@ title: Home
 
 [cv]: {{ site.url }}/cv
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science" -->
+[poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"

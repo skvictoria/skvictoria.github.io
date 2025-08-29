@@ -6,7 +6,7 @@ id: conceptevo
 title: "Concept Evolution in Deep Learning Training: A Unified Interpretation Framework and Discoveries"
 authors: 
   - Haekyu Park
-  - Seongmin Lee
+  - Seulgi Kim
   - Benjamin Hoover
   - Austin Wright
   - Omar Shaikh

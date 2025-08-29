@@ -10,7 +10,7 @@ authors:
   - Alexander Karpekov
   - Alec Helbling
   - Zijie J. Wang
-  - Seongmin Lee
+  - Seulgi Kim
   - Benjamin Hoover
   - Duen Horng (Polo) Chau
 venue: Poster, IEEE Visualization Conference

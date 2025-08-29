@@ -5,7 +5,7 @@ categories: papers
 permalink: papers/llm-attributor
 title: "LLM Attributor: Interactive Visual Attribution for LLM Generation"
 authors: 
-  - Seongmin Lee
+  - Seulgi Kim
   - Zijie J. Wang
   - Aishwarya Chakravarthy
   - Alec Helbling

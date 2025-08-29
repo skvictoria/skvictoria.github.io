@@ -5,7 +5,7 @@ categories: papers
 permalink: papers/llm-interpretation-safety-survey
 title: "Interpretation Meets Safety: A Survey on Interpretation Methods and Tools for Improving LLM Safety"
 authors: 
-  - Seongmin Lee
+  - Seulgi Kim
   - Aeree Cho
   - Grace C. Kim
   - ShengYun Peng
@@ -27,7 +27,7 @@ bibtex: |-
 
   @article{lee2025interpretation,
     title={Interpretation Meets Safety: A Survey on Interpretation Methods and Tools for Improving LLM Safety},
-    author={Seongmin Lee and Aeree Cho and Grace C. Kim and ShengYun Peng and Mansi Phute and Duen Horng Chau},
+    author={Seulgi Kim and Aeree Cho and Grace C. Kim and ShengYun Peng and Mansi Phute and Duen Horng Chau},
     journal={arXiv preprint arXiv:2506.05451},
     year={2025},
     url={https://arxiv.org/abs/2506.05451}, 

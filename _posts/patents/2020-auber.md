@@ -4,7 +4,7 @@ id: auber
 categories: patents
 title: "Pruning Method for Attention Head in Transformer Neural Networks for Regularization and Apparatus Thereof"
 authors: 
-  - Seongmin Lee
+  - Seulgi Kim
   - Hyun Dong Lee
   - U Kang
 type: patents

@@ -5,7 +5,7 @@ permalink: papers/hallreasoning
 id: hallreasoning
 title: "LLM Hallucination Reasoning with Zero-shot Knowledge Test"
 authors: 
-  - Seongmin Lee
+  - Seulgi Kim
   - Hsiang Hsu
   - Chun-Fu (Richard) Chen
 venue: 38th Conference on Neural Information Processing Systems (NeurIPS 2024) Socially Responsible Language Modelling Research Workshop

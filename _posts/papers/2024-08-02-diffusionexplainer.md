@@ -5,7 +5,7 @@ categories: papers
 permalink: papers/diffusion-explainer
 title: "Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion"
 authors: 
-  - Seongmin Lee
+  - Seulgi Kim
   - Benjamin Hoover
   - Hendrik Strobelt
   - Zijie J. Wang

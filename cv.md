@@ -6,7 +6,7 @@ permalink: cv/
 # - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Seongmin Lee</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Seulgi Kim</a></h1>
 
 <p id="cv-subtitle"><i>CS PhD student at <span class="cv-gt">Georgia Tech</span></i></p>
 

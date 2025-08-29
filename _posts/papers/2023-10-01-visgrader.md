@@ -14,7 +14,7 @@ authors:
   - Connor Guerin
   - Justin Chen
   - Zijie J. Wang
-  - Seongmin Lee
+  - Seulgi Kim
   - Mahdi Roozbahani
   - Duen Horng (Polo) Chau
 venue: Full Paper, IEEE Visualization and Visual Analytics

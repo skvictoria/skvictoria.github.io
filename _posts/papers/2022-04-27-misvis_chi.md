@@ -5,7 +5,7 @@ categories: papers
 permalink: papers/misvis_chi
 title: "MisVis: Explaining Web Misinformation Connections via Visual Summary"
 authors: 
-  - Seongmin Lee
+  - Seulgi Kim
   - Sadia Afroz
   - Haekyu Park
   - Zijie J. Wang
