@@ -33,7 +33,7 @@ poster: /papers/23-diffusion-explainer-poster.pdf
 selected: false
 type: poster
 figure: /images/papers/23-diffusion-explainer-short.gif
-featured: true
+featured: false
 feature-order: 2
 feature-title: Diffusion Explainer
 image: /images/featured/23-diffusion-explainer-short.gif
