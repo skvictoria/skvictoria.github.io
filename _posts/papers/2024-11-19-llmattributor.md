@@ -23,7 +23,7 @@ code: https://github.com/poloclub/LLM-Attributor
 selected: false
 figure: /images/papers/24-llm-attributor.png
 image: /images/papers/24-llm-attributor.png
-featured: true
+featured: false
 feature-order: 1
 feature-title: LLM Attributor
 feature-description: Interactive Visual Attribution for LLM Generation
