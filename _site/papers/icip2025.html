@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu:300,700" rel="stylesheet">
+
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Share card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@SeongminLeee" />
+  <meta name="twitter:creator" content="@SeongminLeee" />
+  <meta property="og:url" content="https://www.seongmin.xyz/" />
+  <meta property="og:title" content="Seulgi Kim" />
+  <meta property="og:description" content="Seulgi Kim is a PhD student at Georgia Tech developing visual explanations and scalable algorithms for responsible AI." />
+  <meta property="og:image" content="https://skvictoria.github.io/images/seulgi.png" />
+
+  <title>
+    
+      Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion — Seulgi Kim
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <!-- <a target="_blank" href="https://icons8.com/icon/Imv4VIewVo4o/sparkling">Shine</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://skvictoria.github.io/icons/icons8-shine-ios-16-filled-32.png">
+  <link rel="icon" sizes="32x32" href="https://skvictoria.github.io/icons/icons8-shine-ios-16-filled-32.png">
+  <link rel="icon" sizes="16x16" href="https://skvictoria.github.io/icons/icons8-shine-ios-16-filled-32.png">
+  <!-- <link rel="manifest" href="https://skvictoria.github.io/icons/site.webmanifest?v=xQdLjRyXLj"> -->
+  <!-- <link rel="mask-icon" href="https://skvictoria.github.io/icons/safari-pinned-tab.svg?v=xQdLjRyXLj" color="#313131"> -->
+  <!-- <link rel="shortcut icon" href="https://skvictoria.github.io/icons/favicon.ico?v=xQdLjRyXLj"> -->
+  <meta name="msapplication-TileColor" content="#313131">
+  <!-- <meta name="msapplication-config" content="https://skvictoria.github.io/icons/browserconfig.xml?v=xQdLjRyXLj"> -->
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Feed -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Seulgi Kim" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9C1B1EYNC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-H9C1B1EYNC');
+  </script>
+
+</head>
+
+  <body>
+    <header id="masthead">
+	<h1>
+  		<a href="/" title="Home">Seulgi Kim</a>
+  		<!-- <div class="mastheadspacer"/></div> -->
+   		<!-- <span class="masthead-slash">/</span> -->
+   		<!-- <small>PhD Student at Georgia Tech</small> -->
+		<!-- <a href="http://localhost:4000/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a> -->
+		<a href="http://localhost:4000/cv"><i class="fa fa-portrait icon icon-right-space"></i>CV</a>
+	</h1>
+	<nav>
+		<!-- <a href="/cv">CV</a>
+		<a href="/projects">Projects</a>
+		<a href="/everything-else">Everything Else</a> -->
+	</nav>
+</header>
+    <main>
+      <div id="paper-title-wrapper" class="l-screen">
+
+	<h1>Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion</h1>
+
+	<div id="venue-bar">
+		<div id="venue">
+			
+				
+					
+					Short Paper, IEEE Visualization Conference (VIS), 2024
+					
+				
+			
+		</div>
+		
+		
+		
+		
+		
+	</div>
+
+	<hr class="project-hr">
+
+    <div id="author-wrapper">
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.seongmin.xyz/"> -->
+        <img src="/images/people/seongmin-lee.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.seongmin.xyz/">Seulgi Kim</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.bhoov.com/"> -->
+        <img src="/images/people/benjamin-hoover.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.bhoov.com/">Benjamin Hoover</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="http://hendrik.strobelt.com"> -->
+        <img src="/images/people/hendrik-strobelt.png" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="http://hendrik.strobelt.com">Hendrik Strobelt</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://zijie.wang/"> -->
+        <img src="/images/people/zijie-j-wang.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://zijie.wang/">Zijie J. Wang</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://shengyun-peng.github.io/"> -->
+        <img src="/images/people/shengyun-peng.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://shengyun-peng.github.io/">ShengYun Peng</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.austinpwright.com/"> -->
+        <img src="/images/people/austin-p-wright.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.austinpwright.com/">Austin P. Wright</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.linkedin.com/in/kevinyli/"> -->
+        <img src="/images/people/kevin-li.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.linkedin.com/in/kevinyli/">Kevin Li</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://haekyu.com"> -->
+        <img src="/images/people/haekyu-park.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://haekyu.com">Haekyu Park</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://alexanderyang.me/"> -->
+        <img src="/images/people/haoyang-yang.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://alexanderyang.me/">Haoyang Yang</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.cc.gatech.edu/~dchau"> -->
+        <img src="/images/people/polo-chau.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+            </div>
+        
+    </div>
+
+	<!-- <hr class="project-hr"> -->
+
+	<div id="paper-materials" class="l-text">
+		
+		
+			
+		
+			
+			  <a href="/papers/diffusion-explainer"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+			
+		
+			
+			  <a href="https://poloclub.github.io/diffusion-explainer/"><div><i class="fas fa-play" aria-hidden="true"></i> Demo</div></a>
+			
+		
+			
+			  <a href="https://browse.arxiv.org/pdf/2305.03509.pdf"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			  <a href="https://www.youtube.com/watch?v=Zg4gxdIWDds"><div><i class="fas fa-video" aria-hidden="true"></i> Recording</div></a>
+			
+		
+			
+		
+			
+			  <a href="/papers/23-diffusion-explainer-poster.pdf"><div><i class="fas fa-image" aria-hidden="true"></i> Poster</div></a>
+			
+		
+			
+			  <a href="https://github.com/poloclub/diffusion-explainer"><div><i class="fas fa-code" aria-hidden="true"></i> Code</div></a>
+			
+		
+			
+		
+			
+		
+			
+			
+		
+	</div>
+
+</div>
+
+<h2>Abstract</h2>
+<div><p>Diffusion-based generative models’ impressive ability to create convincing images has captured global attention. However, their complex internal structures and operations often make them difficult for non-experts to understand. We present Diffusion Explainer, the first interactive visualization tool that explains how Stable Diffusion transforms text prompts into images. Diffusion Explainer tightly integrates a visual overview of Stable Diffusion’s complex components with detailed explanations of their underlying operations, enabling users to fluidly transition between multiple levels of abstraction through animations and interactive elements. By comparing the evolutions of image representations guided by two related text prompts over refinement timesteps, users can discover the impact of prompts on image generation. Diffusion Explainer runs locally in users’ web browsers without the need for installation or specialized hardware, broadening the public’s education access to modern AI techniques. Our open-sourced tool is available at: https://poloclub.github.io/diffusion-explainer/. A video demo is available at https://youtu.be/Zg4gxdIWDds.</p>
+</div>
+
+
+<figure class="l-text">
+    <img class="single" src="/images/papers/23-diffusion-explainer-short.gif">
+    <figcaption class="single"></figcaption>
+</figure>
+
+
+<h2>BibTeX</h2>
+
+<div class="highlighter-rouge bibtex bibtex-wrapper">
+	<div class="highlight">
+		<pre>
+			
+@article{lee2023diffusion,
+  title={Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion},
+  author={Lee, Seongmin and Hoover, Benjamin and Strobelt, Hendrik and Wang, Zijie J and Peng, ShengYun and Wright, Austin and Li, Kevin and Park, Haekyu and Yang, Haoyang and Chau, Duen Horng},
+  journal={arXiv preprint arXiv:2305.03509},
+  year={2023}
+}
+		</pre>
+	</div>
+</div>
+
+
+    </main>
+    <footer>
+	<div id="footer-left">
+		<a href="mailto:seongmin@gatech.edu"><i class="fa-lg fa fa-envelope footer-icon" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/SeongminLeee"><i class="fa-lg fab fa-twitter footer-icon" aria-hidden="true"></i></a>
+		<a href="https://github.com/ligi214"><i class="fa-lg fab fa-github footer-icon" aria-hidden="true"></i></a>
+		<a href="https://www.linkedin.com/in/seongmin-lee-8b8a97209/"><i class="fa-lg fab fa-linkedin-in footer-icon" aria-hidden="true"></i></a>
+		<a href="https://scholar.google.com/citations?user=EA4jKm4AAAAJ&hl=ko&authuser=1"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
+		<br>
+		<br>
+		&copy; <time datetime="June 16, 2025">2025</time> Seulgi Kim
+	</div>
+	<div id="footer-right">
+		Seulgi Kim is a PhD student at Georgia Tech developing visual explanations and scalable algorithms for responsible AI.
+	</div>
+</footer>
+
+  </body>
+  
+</html>
