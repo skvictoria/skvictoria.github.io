@@ -82,10 +82,8 @@ title: Home
 {% endif %}
 {% endfor %}
 
-<!-- [gt]: http://www.gatech.edu "Georgia Tech"
-[cse]: http://cse.gatech.edu "Georgia Tech Computational Science and Engineering"
-[coc]: http://www.cc.gatech.edu "Georgia Tech College of Computing"
-
-[cv]: {{ site.url }}/cv
-[polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"
+## Publications
+{% assign selectedBoolForBibtex = false %}
+{% for pub in site.categories.papers %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
