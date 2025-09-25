@@ -1,83 +1,57 @@
-- institution: Adobe Inc.
-  location: "San Jose, CA"
-  position: AI/ML Intern - Machine Learning Engineer/Researcher
+- institution: Amazon
+  location: "Austin, TX"
+  position: Software Development Engineer Intern
   mentors: 
-    - Oliver Brdiczka
-    - Tianyuan Cao
-    - Anelise Newman
-    - Gahye Park
-    - Eric Slyman
-  year: "May 2025 — Present"
+    - Rionel Dmello
+    - Abhishek Garg
+  year: "May 2024 — Augst 2024"
   type: industry
+  description: "Developed a Generative AI model that auto-tag the root causes of 1000+ seller inquiries."
 
-- institution: JP Morgan Chase & Co.
-  location: "New York, NY"
-  position: Summer Associate, Research Teechnologies Program
+- institution: Hyundai Motor Company
+  location: "Seoul, South Korea"
+  position: Research Engineer
   mentors: 
-    - Hsiang Hsu
-    - Chun-Fu (Richard) Chen
-  year: "May 2024 — Aug. 2024"
+    - Minwoo Park
+    - Jinwook Choi
+  year: "Jan. 2021 — Sep. 2023"
   type: industry
+  description: "Developed a real-world 3D representation model for a Level 4 Autonomous Driving system, using monocular camera and 3D geometric priors."
 
-- institution: Cisco Systems, Inc.
-  location: "San Jose, CA"
-  position: Ph.D. Intern
-  mentors: Ali Payani
+- institution: Hyundai Motor Company
+  location: "Seoul, South Korea"
+  position: Research Engineer Intern
+  mentors:
+    - Jeremy Ju
+    - Si Jun Kim
   year: "May 2022 — Jul. 2022"
-  # description: "Led model interpretation and visualization development for an open-source project for Responsible AI"
+  description: "Developed a Drivable Surface Segmentation and judgment model using CAN signal and monocular camera images."
   type: industry
 
 - institution: Georgia Institute of Technology
   location: "Atlanta, GA"
   position: Graduate Research Assistant
-  group: School of Computational Science and Engineering
-  year: "Aug. 2021 —"
+  group: School of Electrical and Computer Engineering
+  year: "Aug. 2023 —"
   year-extra: "Present"
   mentors: 
-    - Duen Horng (Polo) Chau
+    - Ghassan AlRegib
   advisor: true
   # description: "Member of the Polo Club of Data Science where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
   institution-url: http://gatech.edu
-  group-url: http://cse.gatech.edu
+  group-url: http://ece.gatech.edu
   type: academic
 
 - institution: Seoul National University
   location: "Seoul, South Korea"
   position: Undergraduate Research Intern
-  group: Data Mining Lab
-  year: "Jan. 2020 —"
-  year-extra: "Feb. 2021"
+  group: Lab of Physical Properties and Process Engineering of Agricultural Products
+  year: "July. 2019 —"
+  year-extra: "June. 2020"
   mentors:
-    - U Kang
+    - Ghiseok Kim
   advisor: true
   description: ""
   institution-url: http://www.snu.ac.kr
-  group-url: https://datalab.snu.ac.kr
-  type: academic
-
-- institution: Seoul National University
-  location: "Seoul, South Korea"
-  position: Undergraduate Research Intern
-  group: Communication and Machine Learning Laboratory
-  year: "Sep. 2019 —"
-  year-extra: "Apr. 2020"
-  mentors:
-    - Jungwoo Lee
-  advisor: true
-  description: ""
-  institution-url: http://www.snu.ac.kr
-  group-url: http://cml.snu.ac.kr
-  type: academic
-
-- institution: The University of Tokyo
-  location: "Tokyo, Japan"
-  position: Undergraduate Research Intern
-  group: Biomedical Precision Laboratory
-  year: "Jul. 2018 —"
-  year-extra: "Aug. 2018"
-  mentors:
-    - Keiichi Nakagawa
-    - Ayumu Ishijima
-  advisor: true
-  description: "Constructed a microscopic motion-picture laser camera with sub-nano spatial/temporal resolution, Investigated interaction between human cells and acoustic waves in collaboration with students majoring in biology and physics"
+  group-url: https://snuphel.snu.ac.kr/
   type: academic

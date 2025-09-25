@@ -3,9 +3,9 @@ layout: home
 title: Home
 ---
 <div id="top-right-buttons">
-  <a href="{{ site.url }}/cv/#publications" class="top-button">Research</a>
-  <a href="{{ site.url }}/teaching" class="top-button">Teaching</a>
-  <a href="{{ site.url }}/coding" class="top-button">Hobby</a>
+  <a href="{{ site.url }}/#" class="top-button">Research</a>
+  <a href="{{ site.url }}/#" class="top-button">Teaching</a>
+  <a href="{{ site.url }}/#" class="top-button">Hobby</a>
 </div>
 
 <div id="intro-wrapper" class="l-text">
@@ -66,17 +66,21 @@ title: Home
 			{% include feature.html feature=feature %}
 		{% endif %}
 	{% endfor %}
-</div> -->
+</div>
 
 ## Education
-
 {::nomarkdown}
 {% for degree in site.data.education %}
 {% include cv/degree.html degree=degree %}
 {% endfor %}
 {:/}
 
-
+## Work Experience
+{% for experience in site.data.experiences %}
+{% if experience.type == 'industry' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
+{% endfor %}
 
 <!-- [gt]: http://www.gatech.edu "Georgia Tech"
 [cse]: http://cse.gatech.edu "Georgia Tech Computational Science and Engineering"
