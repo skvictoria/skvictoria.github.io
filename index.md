@@ -98,6 +98,12 @@ title: Home
 {% include cv/award.html award=award %}
 {% endfor %}
 
+## Service
+<div class="cv-service-title"><b>Reviewer</b></div>
+{% for venue in site.data.reviewer %}
+{% include cv/venue.html venue=venue %}
+{% endfor %}
+
 ## Patent
 {% for patent in site.data.patents %}
 {% include cv/patent.html patent=patent %}
