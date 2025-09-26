@@ -13,4 +13,9 @@
 </div>
 {% endif %}
 <div class="cv-description">{{ experience.description }}</div>
+<ul class="cv-description">
+	{% for item in experience.description %}
+	  <li>{{ item }}</li>
+	{% endfor %}
+</ul>
 <div class="cv-spacer"></div>
