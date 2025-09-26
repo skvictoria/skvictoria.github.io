@@ -12,6 +12,32 @@
 	{% endfor %}
 </div>
 {% endif %}
+{% if experience.youtube %}
+  <div class="cv-video">
+    {%- assign url = experience.youtube -%}
+    {% if url contains 'youtu.be/' %}
+      {% assign video_id = url | split: 'youtu.be/' | last | split: '?' | first %}
+    {% elsif url contains 'watch?v=' %}
+      {% assign video_id = url | split: 'watch?v=' | last | split: '&' | first %}
+    {% elsif url contains 'embed/' %}
+      {% assign video_id = url | split: 'embed/' | last | split: '?' | first %}
+    {% else %}
+      {% assign video_id = url %}
+    {% endif %}
+
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/{{ video_id }}?autoplay=1&mute=1&controls=1&rel=0&modestbranding=1&playsinline=1{% if experience.start %}&start={{ experience.start }}{% endif %}{% if experience.loop %}&loop=1&playlist={{ video_id }}{% endif %}"
+        title="YouTube video"
+        frameborder="0"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        referrerpolicy="strict-origin-when-cross-origin">
+      </iframe>
+    </div>
+  </div>
+{% endif %}
 <ul class="cv-description">
 	{% for item in experience.description %}
 	  <li>{{ item }}</li>
