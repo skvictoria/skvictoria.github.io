@@ -93,6 +93,11 @@ title: Home
 {% include cv/teaching.html teach=teach %}
 {% endfor %}
 
+## Honors and Awards
+{% for award in site.data.awards %}
+{% include cv/award.html award=award %}
+{% endfor %}
+
 ## Patent
 {% for patent in site.data.patents %}
 {% include cv/patent.html patent=patent %}

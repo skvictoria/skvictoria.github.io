@@ -1,45 +1,47 @@
-- name: The Korean Honor Scholarship (KHS)
+- name: IEEE ICIP Student Travel Award
+  description: "Selected as a recipient of the Student Travel Award."
   year: "2025"
 
-- name: Next-generation Science and Technology Leader NET
-  # description: "Research grant of $1,500 funded by KOFST. Conducted interdisciplinary research on 'Digital Twins for Managing AI Infrastructure in Extreme Environments' with 5 other students."
+- name: 2025 GTA Excellence Award
+  description: "Awarded for excellence in teaching (Top 3) as a Graduate Teaching Assistant (GTA). Includes a $1,000 prize and a plaque."
   year: "2025"
 
-- name: NCWIT AiC Collegiate Award Finalist
+- name: 2025 Outstanding GTA Award
+  description: "Outstanding GTA (Top 1) in ECE department at Georgia Tech."
   year: "2025"
 
-- name: IEEE BigData Student Travel Award
-  # description: "Selected as a recipient of the Student Travel Award."
-  year: "2024"
+- name: Hyundai Motors Research Scholar
+  description: "Full tuition and stipend for 1 year. Around 30 undergraduate students are selected nationally."
+  year: "2020"
 
-- name: NeurIPS SoLaR Workshop Travel Fund Award
-  # description: "Selected as a recipient of the travel fund award of $1,800 for the NeurIPS SoLaR Workshop."
-  year: "2024"
-
-- name: IEEE VIS Best Poster Award
-  description: "Transformer Explainer receives Best Poster Award at VIS 2024."
-  year: "2024"
-
-- name: Next-generation Science and Technology Leader NET
-  # description: "Research grant of $1,500 funded by KOFST. Conducted interdisciplinary research on 'Wearable Devices and AI to Enhance Sustainability and Reliability of Korean Healthcare Data' with 5 other students."
-  year: "2023"
-
-- name: "CS7001 Best Final Project Award Honorable Mention"
-  description: "Awarded for the project 'VisCUIT: Visual Auditor for Bias in CNN Image Classifier' in CS7001, a course taken by all first-year CS Ph.D. students at Georgia Tech. 2nd place among 60+ presentations."
+- name: 2021 Hyundai Motors Company Idea Festival
+  description: "Gold Prize (2nd place) in the Idea Festival among 100+ teams from Hyundai Motor Company."
   year: "2021"
 
-- name: The Presidential Science Scholarship
-  description: "Full tuition and stipend of $5,000 per year. Around 150 students are selected nationally."
-  year: "2016 - 2019"
+- name: Agricultural Develop Fund Scholarship
+  description: "Received $1K per semester. Selected based on the academic performance at Seoul National University."
+  year: "2020 Fall, 2018 Fall, 2018 Spring"
 
-- name: SNU Engineering Honor Society (STEM)
-  description: "Used to be vice president, currently honorary member."
-  year: "2018 - 2019"
+- name: Na Yong In Develop Fund Scholarship
+  description: "Received $2K per semester. Selected based on the academic performance at Seoul National University."
+  year: "2020 Spring"
 
-- name: Seoul National University ECE Voluntary Service Award
-  description: "Selected based on the evaluation of the students, staffs, and faculty members of department of ECE."
-  year: "2017, 2018"
+- name: CALS Research Fellowship Program Certificate
+  description: "Development of real-time crop disease detection model using deep learning."
+  year: "2019"
 
-- name: Hansung Sonjaehan Scholarship
-  description: "Stipend of $5,000 per year. Around 150 high school students studying math and science are selected nationally."
-  year: "2014 - 2015"
+- name: 2019 SNU AGENC FAIR
+  description: "Bronze Prize (Top 3) for developing farming SNS app."
+  year: "2019"
+
+- name: "SNU Hope Scholarship"
+  description: "Received $2K per semester. Selected based on the academic performance at Seoul National University."
+  year: "2018 Fall, 2018 Spring"
+
+- name: 2017 SNU Debate Contest
+  description: "Bronze Prize (Top 3) in the contest among 30+ teams from Seoul National University."
+  year: "2017"
+
+- name: SNU Debate and Speech Club "Acropolis"
+  description: "Vice President."
+  year: "2017 - 2018"
