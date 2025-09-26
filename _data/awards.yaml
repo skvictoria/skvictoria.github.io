@@ -3,7 +3,7 @@
   year: "2025"
 
 - name: 2025 GTA Excellence Award
-  description: "Awarded for excellence in teaching (Top 3) as a Graduate Teaching Assistant (GTA). Includes a $1K prize and a plaque."
+  description: "Received $1K and a plaque for excellence in teaching (Top 3) as a GTA."
   year: "2025"
 
 - name: 2025 Outstanding GTA Award
@@ -18,12 +18,12 @@
   description: "Gold Prize (2nd place) in the Idea Festival among 100+ teams from Hyundai Motor Company."
   year: "2021"
 
-- name: Agricultural Develop Fund Scholarship
-  description: "Received $1K per semester. Selected based on the academic performance at Seoul National University."
+- name: SNU Agricultural Develop Fund Scholarship
+  description: "Received $1K per semester. Selected based on the academic performance."
   year: "2020, 2018"
 
-- name: Na Yong In Develop Fund Scholarship
-  description: "Received $2K per semester. Selected based on the academic performance at Seoul National University."
+- name: SNU Na Yong In Develop Fund Scholarship
+  description: "Received $2K per semester. Selected based on the academic performance."
   year: "2020 Spring"
 
 - name: CALS Research Fellowship Program Certificate
@@ -35,7 +35,7 @@
   year: "2019"
 
 - name: "SNU Hope Scholarship"
-  description: "Received $2K per semester. Selected based on the academic performance at Seoul National University."
+  description: "Received $2K per semester. Selected based on the academic performance."
   year: "2018"
 
 - name: 2017 SNU Debate Contest
