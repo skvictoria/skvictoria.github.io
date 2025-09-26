@@ -13,7 +13,12 @@
   position: Research Engineer
   year: "Jan. 2021 — Sep. 2023"
   type: industry
-  description: "Developed a real-world 3D representation model for a Level 4 Autonomous Driving system, using monocular camera and 3D geometric priors."
+  description:
+    - "Developed a real-world 3D representation model for detecting roads and road markers using monocular camera and 3D geometric priors."
+    - "Responsible for the entire perception pipeline for the Level 4 self-driving pilot service, including dataset creation, neural network implementation, post-processing with 3D camera geometry, and evaluation. Launched on Hyundai Robo-Taxi, Robo-Shuttle, and Robo-Trucks services."
+    - "Published 12 Patents and an in-house conference paper (Excellence Paper (Top 10)) by fusing the LiDAR and Camera modalities."
+    - "Built a debugging monitor from scratch using QT5 to communicate with embedded systems via TCP/IP."
+    - "Processed a raw data acquired from camera, LiDAR, and CAN bus sensors to train AI models."
 
 - institution: Hyundai Motor Company
   location: "Seoul, South Korea"
