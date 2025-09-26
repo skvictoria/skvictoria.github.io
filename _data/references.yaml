@@ -1,9 +1,9 @@
-- name: Polo Chau
-  position: Associate Professor
-  group: School of Computational Science and Engineering
+- name: Ghassan AlRegib
+  position: Professor
+  group: School of Electrical and Computer Engineering
   institution: Georgia Institute of Technology
   location: Atlanta, GA, USA
   phd: true
-  website: "cc.gatech.edu/~dchau/"
-  url: "https://cc.gatech.edu/~dchau/"
+  website: "https://alregib.ece.gatech.edu/"
+  url: "https://alregib.ece.gatech.edu/"
 

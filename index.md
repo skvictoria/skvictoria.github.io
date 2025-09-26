@@ -118,3 +118,8 @@ title: Home
 {% for book in site.data.books %}
 {% include cv/book.html book=book %}
 {% endfor %}
+
+## References
+{% for reference in site.data.references %}
+{% include cv/reference.html reference=reference %}
+{% endfor %}
