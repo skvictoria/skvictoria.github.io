@@ -1,7 +1,99 @@
-- title: "Pruning Method for Attention Head in Transformer Neural Networks for Regularization and Apparatus Thereof"
+- title: "Apparatus and Method for Determining a Position of an Object outside a Vehicle"
   authors: 
     - Seulgi Kim
-    - Hyun Dong Lee
-    - U Kang
-  year: 2020
-  code: 10-2020-0162397
+    - Rahoon Kang
+    - Minseong Son
+    - Hayoung Woo
+    - Dongyeop Jeon
+  year: 2023
+  code: US 18/538,386
+
+- title: "Method and Apparatus for Multi-modal Camera based Road Facility"
+  authors: 
+    - Seulgi Kim
+    - Minseong Son
+  year: 2023
+  code: KR 1020230178910
+
+- title: "Apparatus for Determining a Height of an object outside a Vehicle and a Method for the same"
+  authors: 
+    - Rahoon Kang
+    - Seulgi Kim
+    - Minseong Son
+    - Hayoung Woo
+    - Dongyeop Jeon
+  year: 2023
+  code: US 18/505,816
+
+- title: "Method and Apparatus for Determining Vehicle Location based on License Plate Recognition"
+  authors: 
+    - Seulgi Kim
+    - Rahoon Kang
+    - Minseong Son
+    - Hayoung Woo
+    - Dongyeop Jeon
+  year: 2023
+  code: KR 1020230087663
+
+- title: "Apparatus for Determining of Object Position outside Vehicle and Method Thereof"
+  authors: 
+    - Seulgi Kim
+    - Rahoon Kang
+    - Minseong Son
+    - Hayoung Woo
+    - Dongyeop Jeon
+  year: 2023
+  code: KR 1020230071042
+
+- title: "Apparatus for Determining of Object Position outside Vehicle and Method Thereof"
+  authors: 
+    - Rahoon Kang
+    - Seulgi Kim
+    - Minseong Son
+    - Hayoung Woo
+    - Dongyeop Jeon
+  year: 2023
+  code: KR 1020230062646
+
+- title: "Apparatus for Predicting a Driving Path of a Vehicle and a Method Thereof"
+  authors: 
+    - Seulgi Kim
+    - Yimju Kang
+  year: 2023
+  code: US 18/142,677
+
+- title: "Apparatus for Training a Path Prediction Model and a Method Thereof"
+  authors: 
+    - Seulgi Kim
+    - Yimju Kang
+  year: 2023
+  code: US 18/136,687
+
+- title: "Apparatus for Detecting Label Errors in Training Datasets and Method Thereof"
+  authors: 
+    - Seulgi Kim
+  year: 2023
+  code: KR 1020230062646
+
+- title: "Apparatus for Predicting Driving Path of Vehicle and Method Thereof"
+  authors: 
+    - Seulgi Kim
+    - Yimju Kang
+  year: 2022
+  code: KR 1020220145334
+
+- title: "Apparatus for Training Path Prediction Model and Method Thereof"
+  authors: 
+    - Seulgi Kim
+    - Yimju Kang
+  year: 2022
+  code: KR 1020220145335
+
+- title: "Method for Controlling Seat Position based Learning"
+  authors: 
+    - Kyungju Nam
+    - Seulgi Kim
+    - Yukyeong Song
+    - Hyojeong Lee
+  year: 2021
+  code: KR 1020210160162

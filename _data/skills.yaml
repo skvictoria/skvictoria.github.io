@@ -9,35 +9,42 @@
   items:
     - Python
     - Matlab
-    - Mathematica
     - C
+    - C++
+    - R
+    - Java
+    - Ocaml
+
+- name: Deep Learning Frameworks
+  items:
+    - PyTorch
+    - TensorFlow
+    - Keras
+    - TensorRT
+    - Cuda Programming
+
+- name: Tools
+  items:
+    - Open3D
+    - CAN
+    - TCP/IP
+    - OpenMP
+    - OpenGL
+    - AWS
+    - Git
+    - JIRA
+    - Docker
+    - Raspberry Pi
+    - Arduino
+    - Android Studio
+    - Solidworks
 
 - name: Web and Writing
   items: 
     - HTML
+    - PHP
     - CSS
     - JavaScript
-    - D3
-    - SQL
-    - Bootstrap
     - LaTeX
     - Markdown
-    - Jekyll
     - Git
-- name: Graphics
-  items: 
-  - Affinity Designer
-  - Pixelmator
-  - Matplotlib
-  - Blender
-  - Keynote
-  - Meshlab
-  - MakerBot Desktop  
-
-- name: HCI
-  items:
-  - Contextual Inquiry
-  - Think-Alouds
-  - User Personas
-  - Rapid Paper Prototyping
-  - Affinity Diagraming

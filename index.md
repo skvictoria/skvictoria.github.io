@@ -55,7 +55,7 @@ title: Home
 {:/}
 
 <hr class="l-middle home-hr">
-<h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
+<h2 class="feature-title">Featured Research Publications</h2>
 
 <div style="height:10px"></div>
 
@@ -86,4 +86,19 @@ title: Home
 {% assign selectedBoolForBibtex = false %}
 {% for pub in site.categories.papers %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
+
+## Skills
+{% for skill in site.data.skills %}
+{% include cv/skill.html skill=skill %}
+{% endfor %}
+
+## Patent
+{% for patent in site.data.patents %}
+{% include cv/patent.html patent=patent %}
+{% endfor %}
+
+## Book
+{% for book in site.data.books %}
+{% include cv/book.html book=book %}
 {% endfor %}
