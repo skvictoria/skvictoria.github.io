@@ -3,9 +3,8 @@ layout: home
 title: Home
 ---
 <div id="top-right-buttons">
-  <a href="{{ site.url }}/#" class="top-button">Research</a>
-  <a href="{{ site.url }}/#" class="top-button">Teaching</a>
-  <a href="{{ site.url }}/#" class="top-button">Hobby</a>
+  <a href="{{ site.url }}/#" class="top-button">Teaching (TBD)</a>
+  <a href="https://seulgi-kim.tistory.com/" class="top-button">Blog</a>
 </div>
 
 <div id="intro-wrapper" class="l-text">
