@@ -88,14 +88,14 @@ title: Home
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
-## Skills
-{% for skill in site.data.skills %}
-{% include cv/skill.html skill=skill %}
-{% endfor %}
-
 ## Patent
 {% for patent in site.data.patents %}
 {% include cv/patent.html patent=patent %}
+{% endfor %}
+
+## Skills
+{% for skill in site.data.skills %}
+{% include cv/skill.html skill=skill %}
 {% endfor %}
 
 ## Book

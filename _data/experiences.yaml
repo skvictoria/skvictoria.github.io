@@ -11,9 +11,6 @@
 - institution: Hyundai Motor Company
   location: "Seoul, South Korea"
   position: Research Engineer
-  mentors: 
-    - Minwoo Park
-    - Jinwook Choi
   year: "Jan. 2021 — Sep. 2023"
   type: industry
   description: "Developed a real-world 3D representation model for a Level 4 Autonomous Driving system, using monocular camera and 3D geometric priors."
