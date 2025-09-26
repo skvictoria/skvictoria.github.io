@@ -17,7 +17,6 @@
   year: "Jan. 2021 — Sep. 2023"
   type: industry
   youtube: "https://youtu.be/0W69PArCRMU?si=PD431p7dmwDuMbdZ&t=82"
-  start: 82
   description:
     - "Developed a real-world 3D representation model for detecting roads and road markers using monocular camera and 3D geometric priors."
     - "Responsible for the entire perception pipeline for the Level 4 self-driving pilot service, including dataset creation, neural network implementation, post-processing with 3D camera geometry, and evaluation. Launched on Hyundai Robo-Taxi, Robo-Shuttle, and Robo-Trucks services."

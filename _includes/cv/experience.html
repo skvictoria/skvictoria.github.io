@@ -13,7 +13,7 @@
 </div>
 {% endif %}
 {% if experience.youtube %}
-	<div class="cv-video">
+	<div class="cv-video cv-video--lg">
     {%- assign url = experience.youtube -%}
     {% if url contains 'youtu.be/' %}
       {% assign video_id = url | split: 'youtu.be/' | last | split: '?' | first %}
