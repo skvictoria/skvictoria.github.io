@@ -88,6 +88,11 @@ title: Home
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
+## Teaching
+{% for teach in site.data.teaching %}
+{% include cv/teaching.html teach=teach %}
+{% endfor %}
+
 ## Patent
 {% for patent in site.data.patents %}
 {% include cv/patent.html patent=patent %}
