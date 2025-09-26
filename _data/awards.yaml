@@ -10,13 +10,13 @@
   description: "Outstanding GTA (Top 1) in ECE department at Georgia Tech."
   year: "2025"
 
-- name: Hyundai Motors Research Scholar
-  description: "Full tuition and stipend for 1 year. Around 30 undergraduate students are selected nationally."
-  year: "2020"
-
 - name: 2021 Hyundai Motors Company Idea Festival
   description: "Gold Prize (2nd place) in the Idea Festival among 100+ teams from Hyundai Motor Company."
   year: "2021"
+
+- name: Hyundai Motors Research Scholar
+  description: "Full tuition and stipend for 1 year. Around 30 undergraduate students are selected nationally."
+  year: "2020"
 
 - name: SNU Agricultural Develop Fund Scholarship
   description: "Received $1K per semester. Selected based on the academic performance."
