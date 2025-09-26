@@ -6,7 +6,10 @@
     - Abhishek Garg
   year: "May 2024 — Augst 2024"
   type: industry
-  description: "Developed a Generative AI model that auto-tag the root causes of 1000+ seller inquiries."
+  description:
+    - "Developed a Generative AI model that auto-tag the root causes of 1000+ seller inquiries."
+    - "Built a chatbot to be used by 100+ AWS Partner Organization (APO) developers using Claude 3 Sonnet LLM."
+    - "Fixed the team's PSF pipelines; identified the root causes that cause failure and rolled out to production stages."
 
 - institution: Hyundai Motor Company
   location: "Seoul, South Korea"
