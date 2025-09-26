@@ -18,7 +18,7 @@ title: Home
 					{% endif %}
 				{% endfor %}
 				<div id="everything-else" class="social-link">
-					<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+					<a href="/images/20250922_Resume.pdf"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 				</div>
 			</div>
 			<h1 id="intro-title">Hi! I'm Seulgi Kim  </h1>
