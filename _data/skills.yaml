@@ -1,16 +1,9 @@
-- name: OS
-  items:
-    - Mac OS X
-    - Ubuntu
-    - Unix Command Line
-    - Windows
-
 - name: Programming
   items:
     - Python
-    - Matlab
-    - C
     - C++
+    - C
+    - Matlab
     - R
     - Java
     - Ocaml
@@ -48,3 +41,10 @@
     - LaTeX
     - Markdown
     - Git
+
+- name: OS
+  items:
+    - Mac OS X
+    - Ubuntu
+    - Unix Command Line
+    - Windows
