@@ -30,7 +30,7 @@ title: Home
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div> -->
 	<div>
-		My research aims to explain <b>Why</b> AI understands video. Specifically, I aim to advance <b>computer vision</b> and <b>multi-modal learning</b> algorithms to interpret temporal and semantic relations between human actions in long-term videos.
+		My research aims to explain <b>Why</b> AI understands video. Specifically, I aim to advance <b>computer vision</b> and <b>multi-modal learning</b> algorithms to interpret temporal and semantic relations between actions in long-term videos.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
@@ -97,7 +97,7 @@ title: Home
 {% include cv/award.html award=award %}
 {% endfor %}
 
-## Patent
+## Patents
 {% for patent in site.data.patents %}
 {% include cv/patent.html patent=patent %}
 {% endfor %}
