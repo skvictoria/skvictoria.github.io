@@ -3,3 +3,10 @@
   years:
     - year: 2025
       url: https://2025.ieeeicip.org/
+
+- venue: The IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  venue-shorthand: CVPR
+  years:
+    - year: 2026
+      url: https://cvpr.thecvf.com/Conferences/2026
+
