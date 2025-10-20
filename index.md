@@ -75,16 +75,15 @@ title: Home
 {:/}
 
 ## Publications
+#### Journals/Conferences
 {% assign selectedBoolForBibtex = false %}
 {% for pub in site.categories.papers %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
-
 #### Patents
 {% for patent in site.data.patents %}
 {% include cv/patent.html patent=patent %}
 {% endfor %}
-
 #### Book
 {% for book in site.data.books %}
 {% include cv/book.html book=book %}
