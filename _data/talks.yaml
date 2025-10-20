@@ -1,55 +1,16 @@
-- title: "Will AI Take Over the World? Understanding Risks in ChatGPT"
-  location: "UGAxGT Graduate Research Seminar"
-  month: "Apr"
+- title: "Lessons from Twenty-modal Learning: Rank-targeted Fusion to counter Modal Collapse"
+  location: "ML4seismic Industry Partners Meeting, Georgia Tech"
+  month: "Nov"
   year: 2025
-  
-- title: "LLM Attributor: Interactive Visual Attribution for LLM Generation"
-  location: "Georgia Tech, School of CSE Recruiting Event"
-  month: "Mar"
+
+- title: Multi-level and Multi-modal Action Anticipation
+  location: "IUCRC Industry Partners Meeting, Georgia Tech"
+  month: "Nov"
   year: 2025
-  
-- title: "Will AI Take Over the World? Understanding AI's Realistic Risks"
-  location: "Women in GTKSA Research & Career Seminar"
-  month: "Mar"
-  year: 2025
-  
-- title: "Expanding Your Career Canvas: Pitching Strategies for Diverse Audiences"
-  location: "Fostering Innovation in Rising Experts (FIRE) at United States-Korea Conference (UKC)"
-  month: "Aug"
+  description: https://nsfahead.org/membership2/planning-meetings/
+
+- title: "Hierarchical Information Encoding for Action Anticipation using Multi-level label"
+  location: "ML4seismic Industry Partners Meeting, Georgia Tech"
+  month: "Nov"
   year: 2024
-  
-- title: "Diffusion Explainer: Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion"
-  location: "Georgia Tech, School of CSE Recruiting Event"
-  month: "Nov"
-  year: 2023
-  
-- title: "Student Panel for Prospective Students"
-  location: "Georgia Tech, School of CSE Recruiting Event"
-  month: "Nov"
-  year: 2023
-  
-- title: "STEM Global Engineer Seminar"
-  location: "Seoul National University, SNU Engineering Honor Society (STEM)"
-  month: "May"
-  year: 2023
-
-- title: "MisVis: Explaining Website Reliability by Visualizing Hyperlink Connectivity"
-  location: "Georgia Tech, School of CSE Recruiting Event"
-  month: "Nov."
-  year: 2022
-
-- title: "MisVis: Explaining Website Reliability by Visualizing Hyperlink Connectivity"
-  location: "AVAST Software, Fake News Monthly Sync Up"
-  month: "Mar."
-  year: 2022
-
-- title: "Multi-Source Domain Adaptation with Pseudo-labels"
-  location: "Seoul National University, AIIS Retreat"
-  month: "Jun."
-  year: 2020
-
-- title: "STEM Vision Mentoring"
-  location: "Seoul National University, STEM Vision Mentoring"
-  month: "Jul."
-  year: 2019
-  description: Organized and gave lectures on engineering for high school students. More than 700 students attended.
+  description: https://slim.gatech.edu/content/ml4seismic-partners-meeting-2024

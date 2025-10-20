@@ -74,17 +74,27 @@ title: Home
 {% endfor %}
 {:/}
 
+## Publications
+{% assign selectedBoolForBibtex = false %}
+{% for pub in site.categories.papers %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
+
+#### Patents
+{% for patent in site.data.patents %}
+{% include cv/patent.html patent=patent %}
+{% endfor %}
+
+#### Book
+{% for book in site.data.books %}
+{% include cv/book.html book=book %}
+{% endfor %}
+
 ## Work Experience
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
 {% include cv/experience.html experience=experience %}
 {% endif %}
-{% endfor %}
-
-## Publications
-{% assign selectedBoolForBibtex = false %}
-{% for pub in site.categories.papers %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
 ## Teaching
@@ -97,9 +107,10 @@ title: Home
 {% include cv/award.html award=award %}
 {% endfor %}
 
-## Patents
-{% for patent in site.data.patents %}
-{% include cv/patent.html patent=patent %}
+## Invited Talks
+{% assign talktitles = site.data.talks | group_by:"title" %}
+{% for title in talktitles %}
+{% include cv/talk.html talk=title%}
 {% endfor %}
 
 ## Service
@@ -116,11 +127,6 @@ title: Home
 ## Skills
 {% for skill in site.data.skills %}
 {% include cv/skill.html skill=skill %}
-{% endfor %}
-
-## Book
-{% for book in site.data.books %}
-{% include cv/book.html book=book %}
 {% endfor %}
 
 ## References
