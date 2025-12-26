@@ -1,3 +1,9 @@
+- venue: The International Conference on Learning Representations
+  venue-shorthand: ICLR Workshop
+  years:
+    - year: 2026
+      url: https://openreview.net/group?id=ICLR.cc/2025/Workshop/DeLTa#tab-accept-oral
+
 - venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition
   venue-shorthand: CVPR
   years:
