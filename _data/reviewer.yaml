@@ -1,3 +1,9 @@
+- venue: IEEE International Conference on Image Processing 
+  venue-shorthand: ICIP
+  years:
+    - year: 2026
+      url: https://2026.ieeeicip.org/
+
 - venue: The 18th European Conference on Computer Vision
   venue-shorthand: ECCV
   years:
