@@ -1,3 +1,8 @@
+- degree: "Our paper Accepted at DMLR!"
+  years: "February 2026"
+  institution: Check out our Paper
+  institution-url: https://alregib.ece.gatech.edu/software-and-datasets/darai-daily-activity-recordings-for-artificial-intelligence-and-machine-learning/
+
 - degree: "Our paper Accepted at ICASSP 2026!"
   years: "January 2026"
 
@@ -19,11 +24,6 @@
   years-extra: "May 2025"
   institution: My students trained their own GPT-2 LLMs.
   institution-url: https://ece.gatech.edu/news/2025/05/ai-makerspace-turns-one-students-charting-course
-
-- degree: "Our paper on Human Activity Video Datasets is now on arXiV!"
-  years: "April 2025"
-  institution: Check out our Paper
-  institution-url: https://alregib.ece.gatech.edu/software-and-datasets/darai-daily-activity-recordings-for-artificial-intelligence-and-machine-learning/
 
 - degree: "I am honored to receive"
   years: "March 2025"
