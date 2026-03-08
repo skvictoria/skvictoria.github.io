@@ -30,7 +30,7 @@ title: Home
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div> -->
 	<div>
-		My research aims to answer the question: 'Why multi-modal learning does not work well?' My research area includes Multi-modal learning, Computer vision, Reasoning, Large language model (LLM), Vision language model (VLM), Diffusion, Action Anticipation, and Video Understanding.
+		Why does multimodal learning not work well? I study how to quantify and mitigate collapse in multimodal learning, particularly for video understanding. My research interests include multimodal learning, computer vision, large language models (LLMs), vision-language models (VLMs), diffusion models, and action anticipation.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
