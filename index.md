@@ -30,7 +30,7 @@ title: Home
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div> -->
 	<div>
-		Why does multimodal learning not work well? I study how to quantify and mitigate collapse in multimodal learning, particularly for video understanding. My research interests include multimodal learning, computer vision, large language models (LLMs), vision-language models (VLMs), diffusion models, and action anticipation.
+		<b>Why does multimodal learning not work well?</b> I study how to quantify and mitigate collapse in multimodal learning, particularly for video understanding. My research interests include multimodal learning, computer vision, large language models (LLMs), vision-language models (VLMs), diffusion models, and action anticipation.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
