@@ -30,7 +30,7 @@ title: Home
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div> -->
 	<div>
-		My research aims to explain <b>Why</b> AI understands video. Specifically, I aim to advance <b>computer vision</b> and <b>multi-modal learning</b> algorithms to interpret temporal and semantic relations between actions in long-term videos.
+		My research aims to answer the question: 'Why multi-modal learning does not work well?' My research area includes Multi-modal learning, Computer vision, Reasoning, Large language model (LLM), Vision language model (VLM), Diffusion, Action Anticipation, and Video Understanding.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
