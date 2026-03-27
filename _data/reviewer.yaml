@@ -1,14 +1,20 @@
-- venue: IEEE International Conference on Image Processing 
-  venue-shorthand: ICIP
+- venue: The Fortieth Annual Conference on Neural Information Processing Systems
+  venue-shorthand: Neurips
   years:
     - year: 2026
-      url: https://2026.ieeeicip.org/
+      url: https://neurips.cc/
 
 - venue: The 18th European Conference on Computer Vision
   venue-shorthand: ECCV
   years:
     - year: 2026
       url: https://eccv.ecva.net/
+
+- venue: IEEE International Conference on Image Processing 
+  venue-shorthand: ICIP
+  years:
+    - year: 2026
+      url: https://2026.ieeeicip.org/
 
 - venue: The Fourteenth International Conference on Learning Representations Workshop (DeLTa)
   venue-shorthand: ICLR Workshop
