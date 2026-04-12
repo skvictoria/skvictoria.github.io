@@ -1,3 +1,9 @@
+- venue: ICML 2026 Workshop on Foundations of Deep Generative Models
+  venue-shorthand: ICML Workshop
+  years:
+    - year: 2026
+      url: https://fdgm-workshop.github.io/FDGM_ICML2026/
+
 - venue: The Fortieth Annual Conference on Neural Information Processing Systems
   venue-shorthand: Neurips
   years:
