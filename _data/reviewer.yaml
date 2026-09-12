@@ -1,3 +1,9 @@
+- venue: Neurips 2026 Workshop on First Workshop on Reliable Evaluation for Language Models (JUDGe)
+  venue-shorthand: Neurips Workshop
+  years:
+    - year: 2026
+      url: https://neurips.cc/
+
 - venue: ICML 2026 Workshop on Foundations of Deep Generative Models
   venue-shorthand: ICML Workshop
   years:
