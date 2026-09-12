@@ -1,4 +1,15 @@
 - institution: Amazon
+  location: "Seattle, WA"
+  position: Applied Scientist Intern
+  mentors: 
+    - Ronn Shaw
+    - Jason Zhang
+  year: "May 2026 — Augst 2026"
+  type: industry
+  description:
+    - "Research on VLM-as-a-judge for subtle visual hallucination detection"
+
+- institution: Amazon
   location: "Austin, TX"
   position: Software Development Engineer Intern
   mentors: 
