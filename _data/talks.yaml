@@ -1,7 +1,14 @@
+- title: "Countering Modality Dominance in Vision-Language Models (VLMs)"
+  location: "Center for Signal and Information Processing (CSIP) Seminar, Georgia Tech"
+  month: "Feb"
+  year: 2027
+  description: https://csip.ece.gatech.edu/spring-2027/
+
 - title: "Lessons from Twenty-modal Learning: Rank-targeted Fusion to counter Modal Collapse"
   location: "ML4seismic Industry Partners Meeting, Georgia Tech"
   month: "Nov"
   year: 2025
+  description: https://slim.gatech.edu/content/ml4seismic-partners-meeting-2025
 
 - title: Multi-level and Multi-modal Action Anticipation
   location: "IUCRC Industry Partners Meeting, Georgia Tech"
