@@ -101,6 +101,14 @@ title: Home
 {% include cv/teaching.html teach=teach %}
 {% endfor %}
 
+## Mentoring
+
+{::nomarkdown}
+{% for mentee in site.data.mentoring %}
+{% include cv/mentee.html mentee=mentee %}
+{% endfor %}
+{:/}
+
 ## Honors and Awards
 {% for award in site.data.awards %}
 {% include cv/award.html award=award %}
