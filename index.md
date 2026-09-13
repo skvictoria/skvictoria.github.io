@@ -34,7 +34,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I am a second year Ph.D. student at Georgia Tech, advised by <a href="https://alregib.ece.gatech.edu/">Ghassan AlRegib</a>.
+		I am a third year Ph.D. student at Georgia Tech, advised by <a href="https://alregib.ece.gatech.edu/">Ghassan AlRegib</a>.
 		I received my B.S. from Seoul National University, where I was supported by <a href="https://www.hyundai-ngv.com/en/hrd/sub01.do">Hyundai Motor Group Research Scholarship</a>.
 	</div>
 	<div style="height: 1rem"></div>
