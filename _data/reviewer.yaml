@@ -1,3 +1,9 @@
+- venue: 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing
+  venue-shorthand: ICASSP
+  years:
+    - year: 2027
+      url: https://2027.ieeeicassp.org/
+
 - venue: Neurips 2026 Workshop on First Workshop on Reliable Evaluation for Language Models (JUDGe)
   venue-shorthand: Neurips Workshop
   years:
