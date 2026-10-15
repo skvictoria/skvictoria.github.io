@@ -30,7 +30,7 @@ title: Home
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div> -->
 	<div>
-		<b>Do vision-language models really use what they see?</b> I study how to identify multimodal information that is underutilized in vision-language models (VLMs) and selectively steer it. By analyzing the geometry of internal representations, I examine which information is shared across modalities, unique to one, or synergistic, and use this analysis to guide targeted interventions. My research interests broadly include VLMs, multimodal representation learning, and video understanding.
+		<b>Do vision-language models really use what they see?</b> I study how to identify multimodal information that is underutilized in vision-language models (VLMs) and selectively steer it. By analyzing the geometry of internal representations, I examine which information is shared across modalities, unique to one, or synergistic, and use this analysis to guide targeted interventions. My research interests broadly include VLMs, diffusion, and video understanding.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
