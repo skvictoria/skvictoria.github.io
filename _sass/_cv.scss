@@ -110,6 +110,30 @@
 	color: $silver !important;
 }
 
+// Small teaser beside each publication, spanning its title/authors/venue/links rows
+.pub-thumb {
+	grid-column: screen-start / kicker-end !important;
+	grid-row: span 4;
+	justify-self: end;
+	align-self: center;
+	width: 200px;
+}
+
+.pub-thumb img {
+	display: block;
+	width: 100%;
+	border-radius: 0.5rem;
+	border: 1px solid $black-05;
+	background-color: white;
+}
+
+// Not enough room beside the text column on narrow screens
+@media screen and (max-width: $homepage-pre-mobile) {
+	.pub-thumb {
+		display: none;
+	}
+}
+
 .cv-description {
 	color: $silver !important;
 	font-size: 0.875rem;

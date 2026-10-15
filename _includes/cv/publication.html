@@ -4,6 +4,10 @@
 </div>
 {% endif %} -->
 
+{% if pub.thumbnail %}
+<div class="pub-thumb"><a href="{{ pub.url }}"><img src="{{ pub.thumbnail }}" alt="" loading="lazy"></a></div>
+{% endif %}
+
 <div>
 {% if pub.url %}
 	<a href="{{ pub.url }}"><b>{{ pub.title }}</b></a>
