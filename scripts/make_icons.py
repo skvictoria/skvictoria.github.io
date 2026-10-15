@@ -165,6 +165,39 @@ def hex2025():
     return body
 
 
+def intendiff():
+    """IntenDiff: noisy action samples denoise into trajectories that stay within the global intention."""
+    random.seed(7)
+    gx, gy = 30, 60
+    xs = [43, 53, 63, 73, 83, 91]
+    targets = [44, 60, 76]
+    kt = [0, 0.15, 0.55, 0.9, 1]
+    # intention-consistent region spreading out from the global intention
+    body = (f'  <path d="M{gx},{gy} L96,36 Q100,60 96,84 Z" fill="#f48fb1" fill-opacity="0.16" '
+            f'stroke="#f48fb1" stroke-opacity="0.5" stroke-width="1"/>\n')
+    for ty in targets:
+        clean = [gy + (ty - gy) * ((x - gx) / (xs[-1] - gx)) ** 0.7 for x in xs]
+        noisy = [c + random.uniform(-16, 16) for c in clean]
+        d_noisy = f"M{gx},{gy} " + " ".join(f"L{x},{y:.1f}" for x, y in zip(xs, noisy))
+        d_clean = f"M{gx},{gy} " + " ".join(f"L{x},{y:.1f}" for x, y in zip(xs, clean))
+        body += (f'  <path d="{d_noisy}" fill="none" stroke="#aaa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">\n'
+                 f'    {anim("d", [d_noisy, d_noisy, d_clean, d_clean, d_noisy], kt, 4)}\n'
+                 f'    {anim("stroke", ["#aaa", "#aaa", "#d81b60", "#d81b60", "#aaa"], kt, 4)}\n  </path>\n')
+    # predicted action blocks appear once the samples are denoised
+    for ty, c in zip(targets, ["#f8bbd0", "#f06292", "#f8bbd0"]):
+        body += (f'  <rect x="91" y="{ty - 4}" width="12" height="8" rx="2.5" fill="{c}" stroke="#d81b60" stroke-width="1" opacity="0">\n'
+                 f'    {anim("opacity", [0, 0, 1, 1, 0], [0, 0.45, 0.6, 0.9, 1], 4)}\n  </rect>\n')
+    # global intention: making coffee
+    body += (f'  <circle cx="{gx}" cy="{gy}" r="14" fill="#fde4ec" stroke="#d81b60" stroke-width="1.8"/>\n'
+             f'  <path d="M{gx - 6},{gy - 2} L{gx + 4},{gy - 2} L{gx + 3},{gy + 7} Q{gx - 1},{gy + 9} {gx - 5},{gy + 7} Z" fill="#7b4a2e"/>\n'
+             f'  <path d="M{gx + 4},{gy} q4,0 4,3 q0,3 -4.5,3" fill="none" stroke="#7b4a2e" stroke-width="1.6"/>\n')
+    for k, dx in enumerate([-3, 1]):
+        body += (f'  <path d="M{gx + dx},{gy - 5} q-2,-2.5 0,-5 q2,-2.5 0,-5" fill="none" stroke="#b07a5a" '
+                 f'stroke-width="1.3" stroke-linecap="round" opacity="0.2">\n'
+                 f'    {anim("opacity", [0.2, 1, 0.2], [0, 0.5, 1], 1.6 + 0.4 * k)}\n  </path>\n')
+    return body
+
+
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     write("wacv2026", wacv2026())
@@ -173,3 +206,4 @@ if __name__ == "__main__":
     write("icassp2026", icassp2026())
     write("dmlr2025", dmlr2025())
     write("hex", hex2025())
+    write("intendiff", intendiff())
