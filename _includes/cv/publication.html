@@ -5,7 +5,7 @@
 {% endif %} -->
 
 {% if pub.thumbnail %}
-<div class="pub-thumb"><a href="{{ pub.url }}"><img src="{{ pub.thumbnail }}" alt="" loading="lazy"></a></div>
+<div class="pub-thumb{% if pub.thumbnail contains ".svg" %} pub-thumb-icon{% endif %}"><a href="{{ pub.url }}"><img src="{{ pub.thumbnail }}" alt="" loading="lazy"></a></div>
 {% endif %}
 
 <div>
