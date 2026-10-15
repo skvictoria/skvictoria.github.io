@@ -30,7 +30,7 @@ title: Home
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div> -->
 	<div>
-		<b>Why does multi-modal learning not work well?</b> I study how to quantify and mitigate collapse in multimodal learning, particularly for video understanding. My research interests broadly include large language models (LLMs), vision-language models (VLMs), diffusion models, and action anticipation.
+		<b>Do vision-language models really use what they see?</b> I study how to identify multimodal information that is underutilized in vision-language models (VLMs) and selectively steer it. By analyzing the geometry of internal representations, I examine which information is shared across modalities, unique to one, or synergistic, and use this analysis to guide targeted interventions. My research interests broadly include VLMs, multimodal representation learning, and video understanding.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
