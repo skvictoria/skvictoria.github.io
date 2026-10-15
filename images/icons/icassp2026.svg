@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="52" fill="#fbfbfb" stroke="#cfcfcf" stroke-width="1.5"/>
+  <defs><linearGradient id="drift" gradientUnits="userSpaceOnUse" x1="23" x2="100" y1="0" y2="0"><stop offset="0" stop-color="#1f6fd1"/><stop offset="0.55" stop-color="#1f6fd1"/><stop offset="1" stop-color="#e8504f"/></linearGradient></defs>
+  <rect x="23.0" y="55.0" width="4" height="10" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="4.5;10;4.5" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="57.8;55.0;57.8" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="29.6" y="49.0" width="4" height="22" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="22;9.9;22" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="49.0;55.0;49.0" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="36.2" y="43.0" width="4" height="34" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="15.3;34;15.3" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="52.4;43.0;52.4" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="42.8" y="51.0" width="4" height="18" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="18;8.1;18" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="51.0;56.0;51.0" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="49.4" y="40.0" width="4" height="40" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="18.0;40;18.0" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="51.0;40.0;51.0" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="56.0" y="47.0" width="4" height="26" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="26;11.700000000000001;26" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="47.0;54.1;47.0" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="62.6" y="53.0" width="4" height="14" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="6.3;14;6.3" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="56.9;53.0;56.9" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="69.2" y="45.0" width="4" height="30" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="30;13.5;30" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="45.0;53.2;45.0" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="75.8" y="39.0" width="4" height="42" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="18.900000000000002;42;18.900000000000002" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="50.5;39.0;50.5" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="82.4" y="50.0" width="4" height="20" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="20;9.0;20" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="50.0;55.5;50.0" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="89.0" y="44.0" width="4" height="32" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="14.4;32;14.4" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="52.8;44.0;52.8" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="95.6" y="54.0" width="4" height="12" rx="2" fill="url(#drift)">
+    <animate attributeName="height" values="12;5.4;12" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="54.0;57.3;54.0" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <path d="M34,90 L86,90" stroke="#bbb" stroke-width="1.5" stroke-dasharray="2 3"/>
+  <circle cx="34" cy="90" r="4" fill="#1f6fd1"/>
+  <circle cx="34" cy="90" r="4" fill="#e8504f">
+    <animate attributeName="cx" values="34;34;86;86;34" keyTimes="0;0.15;0.7;0.9;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.15;0.7;0.9;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </circle>
+</svg>

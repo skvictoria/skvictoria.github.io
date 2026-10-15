@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="52" fill="#fbfbfb" stroke="#cfcfcf" stroke-width="1.5"/>
+  <path d="M28,58 L60,32 L92,58" fill="none" stroke="#6b5b4b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34,54 L34,88 L86,88 L86,54" fill="#fff6e8" stroke="#6b5b4b" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="60" cy="60" r="5.5" fill="#e07a2a"/>
+  <path d="M60,66 L60,78 M60,70 L53,74 M60,70 L67,66 M60,78 L55,86 M60,78 L65,86" stroke="#e07a2a" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <rect x="37" y="57" width="9" height="6" rx="1.5" fill="#1f6fd1"/>
+  <path d="M49.0,56.0 A5,5 0 0 1 49.0,64.0" fill="none" stroke="#1f6fd1" stroke-width="1.6" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.15;0.45;1" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </path>
+  <path d="M51.4,52.8 A9,9 0 0 1 51.4,67.2" fill="none" stroke="#1f6fd1" stroke-width="1.6" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.35;0.65;1" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </path>
+  <path d="M38,99 L50,99 L53,93 L57,103 L60,96 L63,99 L82,99" fill="none" stroke="#e8504f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="60" stroke-dashoffset="60">
+    <animate attributeName="stroke-dashoffset" values="60;0;0;-60" keyTimes="0;0.45;0.7;1" dur="2.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </path>
+  <circle cx="67" cy="66" r="2.6" fill="#2e7d6b"/>
+</svg>

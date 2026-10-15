@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="52" fill="#fbfbfb" stroke="#cfcfcf" stroke-width="1.5"/>
+  <rect x="24" y="30" width="20" height="12" rx="3" fill="#e0457b" fill-opacity="0.85" stroke="#b8325f" stroke-width="1.2">
+    <animate attributeName="fill-opacity" values="0.85;0.85;0.85;0.85;0.85" keyTimes="0;0.2;0.6;0.9;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="24" y="46" width="20" height="12" rx="3" fill="#e0457b" fill-opacity="0.2" stroke="#b8325f" stroke-width="1.2">
+    <animate attributeName="fill-opacity" values="0.2;0.2;0.8;0.8;0.2" keyTimes="0;0.2;0.6;0.9;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="24" y="62" width="20" height="12" rx="3" fill="#e0457b" fill-opacity="0.15" stroke="#b8325f" stroke-width="1.2">
+    <animate attributeName="fill-opacity" values="0.15;0.15;0.8;0.8;0.15" keyTimes="0;0.2;0.6;0.9;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="24" y="78" width="20" height="12" rx="3" fill="#e0457b" fill-opacity="0.3" stroke="#b8325f" stroke-width="1.2">
+    <animate attributeName="fill-opacity" values="0.3;0.3;0.8;0.8;0.3" keyTimes="0;0.2;0.6;0.9;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="76" y="30" width="20" height="12" rx="3" fill="#1f6fd1" fill-opacity="0.9" stroke="#174f96" stroke-width="1.2"/>
+  <rect x="76" y="46" width="20" height="12" rx="3" fill="#1f6fd1" fill-opacity="1.0" stroke="#174f96" stroke-width="1.2"/>
+  <rect x="76" y="62" width="20" height="12" rx="3" fill="#1f6fd1" fill-opacity="0.95" stroke="#174f96" stroke-width="1.2"/>
+  <rect x="76" y="78" width="20" height="12" rx="3" fill="#1f6fd1" fill-opacity="0.55" stroke="#174f96" stroke-width="1.2"/>
+  <circle r="3.5" fill="#1f6fd1" opacity="0">
+    <animateMotion path="M76,36 Q60,22 44,52" dur="4s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.15;0.50;1" calcMode="linear"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.14;0.20;0.45;0.52;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.5" fill="#1f6fd1" opacity="0">
+    <animateMotion path="M76,52 Q60,38 44,68" dur="4s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.25;0.60;1" calcMode="linear"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.24;0.30;0.55;0.62;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.5" fill="#1f6fd1" opacity="0">
+    <animateMotion path="M76,68 Q60,54 44,84" dur="4s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.35;0.70;1" calcMode="linear"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.40;0.65;0.72;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
