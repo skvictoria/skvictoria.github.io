@@ -8,7 +8,8 @@
 <div class="pub-thumb{% if pub.thumbnail contains ".svg" %} pub-thumb-icon{% endif %}"><a href="{{ pub.url }}"><img src="{{ pub.thumbnail }}" alt="" loading="lazy"></a></div>
 {% endif %}
 
-<div>
+<div{% if pub.thumbnail %} class="pub-title"{% endif %}>
+{% if pub.thumbnail %}<img class="pub-icon-inline" src="{{ pub.thumbnail }}" alt="" loading="lazy">{% endif %}
 {% if pub.url %}
 	<a href="{{ pub.url }}"><b>{{ pub.title }}</b></a>
 {% else %}

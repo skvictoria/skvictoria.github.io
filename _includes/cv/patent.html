@@ -2,7 +2,7 @@
 <div class="pub-thumb pub-thumb-icon pub-thumb-patent"><img src="{{ patent.icon }}" alt="" loading="lazy"></div>
 {% endif %}
 
-<div><b>{{ patent.title }}</b></div>
+<div{% if patent.icon %} class="pub-title"{% endif %}>{% if patent.icon %}<img class="pub-icon-inline" src="{{ patent.icon }}" alt="" loading="lazy">{% endif %}<b>{{ patent.title }}</b></div>
 
 <div>
 	{% for person in patent.authors %}

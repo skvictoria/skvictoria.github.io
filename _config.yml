@@ -1,6 +1,7 @@
 title: Seulgi Kim
 tagline: PhD Student at Georgia Tech
-url: https://skvictoria.github.io/
+description: "Seulgi Kim is a Ph.D. student at Georgia Tech studying how to identify and selectively steer underutilized multimodal information in vision-language models."
+url: https://skvictoria.github.io
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5

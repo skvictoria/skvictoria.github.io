@@ -199,10 +199,28 @@
 	color: $highlight-mutepink;
 }
 
-// Not enough room beside the text column on narrow screens
+// Inline copy of the icon, shown next to the title only on narrow screens
+.pub-icon-inline {
+	display: none;
+}
+
+// Not enough room beside the text column on narrow screens: move the icon next to the title
 @media screen and (max-width: $homepage-pre-mobile) {
 	.pub-thumb {
 		display: none;
+	}
+
+	.pub-title {
+		display: flex;
+		align-items: center;
+		gap: 0.6rem;
+	}
+
+	.pub-icon-inline {
+		display: block;
+		flex: none;
+		width: 44px;
+		height: 44px;
 	}
 }
 
