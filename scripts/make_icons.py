@@ -385,6 +385,38 @@ def seat_position():
     return body
 
 
+def book_statistics():
+    """Open statistics book: a dot climbs the steps on the left page, a bell curve draws on the right."""
+    body = ('  <path d="M60,40 Q44,32 22,36 L22,86 Q44,82 60,90 Z" fill="#fffaf0" stroke="#8d6e63" stroke-width="2" stroke-linejoin="round"/>\n'
+            '  <path d="M60,40 Q76,32 98,36 L98,86 Q76,82 60,90 Z" fill="#fffaf0" stroke="#8d6e63" stroke-width="2" stroke-linejoin="round"/>\n'
+            '  <path d="M22,86 Q44,82 60,90 Q76,82 98,86 L98,90 Q76,86 60,94 Q44,86 22,90 Z" fill="#8d6e63"/>\n'
+            '  <line x1="60" y1="40" x2="60" y2="90" stroke="#8d6e63" stroke-width="1.5"/>\n')
+    # steps on the left page, with a dot hopping up one tread at a time
+    n, x0, y0, w = 5, 25, 80, 6
+    d = f"M{x0},{y0} " + " ".join(f"L{x0 + w * (k + 1)},{y0 - w * k} L{x0 + w * (k + 1)},{y0 - w * (k + 1)}" for k in range(n - 1))
+    d += f" L{x0 + w * n},{y0 - w * (n - 1)}"
+    body += f'  <path d="{d}" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>\n'
+    cx = ";".join(str(x0 + w * k + w / 2) for k in range(n)) + f";{x0 + w / 2}"
+    cy = ";".join(str(y0 - w * k - 3.4) for k in range(n)) + f";{y0 - 3.4}"
+    kts = ";".join(f"{k / n:.2f}" for k in range(n)) + ";1"
+    body += (f'  <circle r="2.8" fill="#e8504f">\n'
+             f'    <animate attributeName="cx" values="{cx}" keyTimes="{kts}" dur="3s" repeatCount="indefinite" calcMode="discrete"/>\n'
+             f'    <animate attributeName="cy" values="{cy}" keyTimes="{kts}" dur="3s" repeatCount="indefinite" calcMode="discrete"/>\n'
+             f'  </circle>\n')
+    # bell curve on the right page
+    pts = []
+    for i in range(25):
+        x = 65 + i * 1.2
+        z = (x - 79.4) / 6.0
+        pts.append(f"{x:.1f},{78 - 30 * math.exp(-z * z / 2):.1f}")
+    curve = "M" + " L".join(pts)
+    body += ('  <line x1="64" y1="78" x2="95" y2="78" stroke="#8d6e63" stroke-width="1.2"/>\n'
+             f'  <path d="{curve}" fill="none" stroke="#1f9d55" stroke-width="2.4" stroke-linecap="round" '
+             f'stroke-dasharray="80" stroke-dashoffset="80">\n'
+             f'    {anim("stroke-dashoffset", [80, 0, 0, 80], [0, 0.5, 0.85, 1], 3)}\n  </path>\n')
+    return body
+
+
 PATENT_ICONS = {
     "patent-object-position": object_position,
     "patent-object-height": object_height,
@@ -408,3 +440,4 @@ if __name__ == "__main__":
     write("intendiff", intendiff())
     for name, fn in PATENT_ICONS.items():
         write(name, fn())
+    write("book-statistics", book_statistics())

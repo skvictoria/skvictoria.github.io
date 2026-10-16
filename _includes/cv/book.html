@@ -1,3 +1,7 @@
+{% if book.icon %}
+<div class="pub-thumb pub-thumb-icon pub-thumb-book">{% if book.url %}<a href="{{ book.url }}">{% endif %}<img src="{{ book.icon }}" alt="" loading="lazy">{% if book.url %}</a>{% endif %}</div>
+{% endif %}
+
 <div>
 	{% if book.url %}
 		<a href="{{ book.url }}"><b>{{ book.title }}</b></a>

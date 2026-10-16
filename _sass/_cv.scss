@@ -130,6 +130,11 @@
 	width: 64px;
 }
 
+// Book entries have four rows (title, authors, publisher, ISBN)
+.pub-thumb.pub-thumb-book {
+	width: 64px;
+}
+
 .pub-thumb.pub-thumb-icon img {
 	border: none;
 	background-color: transparent;

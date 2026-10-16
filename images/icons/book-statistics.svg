@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="52" fill="#fbfbfb" stroke="#cfcfcf" stroke-width="1.5"/>
+  <path d="M60,40 Q44,32 22,36 L22,86 Q44,82 60,90 Z" fill="#fffaf0" stroke="#8d6e63" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M60,40 Q76,32 98,36 L98,86 Q76,82 60,90 Z" fill="#fffaf0" stroke="#8d6e63" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M22,86 Q44,82 60,90 Q76,82 98,86 L98,90 Q76,86 60,94 Q44,86 22,90 Z" fill="#8d6e63"/>
+  <line x1="60" y1="40" x2="60" y2="90" stroke="#8d6e63" stroke-width="1.5"/>
+  <path d="M25,80 L31,80 L31,74 L37,74 L37,68 L43,68 L43,62 L49,62 L49,56 L55,56" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle r="2.8" fill="#e8504f">
+    <animate attributeName="cx" values="28.0;34.0;40.0;46.0;52.0;28.0" keyTimes="0.00;0.20;0.40;0.60;0.80;1" dur="3s" repeatCount="indefinite" calcMode="discrete"/>
+    <animate attributeName="cy" values="76.6;70.6;64.6;58.6;52.6;76.6" keyTimes="0.00;0.20;0.40;0.60;0.80;1" dur="3s" repeatCount="indefinite" calcMode="discrete"/>
+  </circle>
+  <line x1="64" y1="78" x2="95" y2="78" stroke="#8d6e63" stroke-width="1.2"/>
+  <path d="M65.0,76.3 L66.2,75.3 L67.4,73.9 L68.6,72.1 L69.8,69.7 L71.0,66.7 L72.2,63.4 L73.4,59.8 L74.6,56.2 L75.8,52.9 L77.0,50.3 L78.2,48.6 L79.4,48.0 L80.6,48.6 L81.8,50.3 L83.0,52.9 L84.2,56.2 L85.4,59.8 L86.6,63.4 L87.8,66.7 L89.0,69.7 L90.2,72.1 L91.4,73.9 L92.6,75.3 L93.8,76.3" fill="none" stroke="#1f9d55" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="80" stroke-dashoffset="80">
+    <animate attributeName="stroke-dashoffset" values="80;0;0;80" keyTimes="0;0.5;0.85;1" dur="3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </path>
+</svg>
