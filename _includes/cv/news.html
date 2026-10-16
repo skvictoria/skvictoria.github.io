@@ -2,16 +2,7 @@
 <div>{{ degree.degree }} <a href="{{ degree.institution-url }}">{{ degree.institution }}</a></div>
 
 {% if degree.image %}
-	<div>
-		<a class="news-card" href="{{ degree.institution-url }}">
-			<img src="{{ degree.image }}" alt="" loading="lazy">
-			<span class="news-card-body">
-				<span class="news-card-source"><i class="fas fa-newspaper" aria-hidden="true"></i> {{ degree.article-source }}{% if degree.article-date %} &middot; {{ degree.article-date }}{% endif %}</span>
-				<span class="news-card-title">{{ degree.article-title }}</span>
-				<span class="news-card-more">Read article <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
-			</span>
-		</a>
-	</div>
+{% include cv/news-card.html url=degree.institution-url image=degree.image source=degree.article-source date=degree.article-date title=degree.article-title %}
 {% endif %}
 
 {% if degree.thesis %}

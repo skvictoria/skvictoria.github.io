@@ -9,6 +9,11 @@
   month: "Nov"
   year: 2025
   description: https://slim.gatech.edu/content/ml4seismic-partners-meeting-2025
+  image: /images/news/2025-ml4seismic.jpg
+  article-url: https://ece.gatech.edu/news/2025/12/ml4seismic-annual-partners-meeting-2025-advancing-ai-seismic-interpretation-processing
+  article-title: "ML4Seismic Annual Partners Meeting 2025: Advancing AI for Seismic Interpretation, Processing, and Imaging"
+  article-source: Georgia Tech ECE News
+  article-date: December 2025
 
 - title: Multi-level and Multi-modal Action Anticipation
   location: "IUCRC Industry Partners Meeting, Georgia Tech"
