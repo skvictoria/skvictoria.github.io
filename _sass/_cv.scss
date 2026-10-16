@@ -148,9 +148,26 @@
 	background-color: white;
 }
 
+// News photo in the right margin, linking to the article (left side holds the date).
+// Zero height lets the photo hang beside the entry without stretching short rows.
+.news-thumb {
+	grid-column: gutter-start / screen-end !important;
+	justify-self: start;
+	align-self: start;
+	width: 150px;
+	height: 0;
+}
+
+.news-thumb img {
+	display: block;
+	width: 100%;
+	border-radius: 0.5rem;
+	border: 1px solid $black-05;
+}
+
 // Not enough room beside the text column on narrow screens
 @media screen and (max-width: $homepage-pre-mobile) {
-	.pub-thumb {
+	.pub-thumb, .news-thumb {
 		display: none;
 	}
 }
