@@ -27,6 +27,12 @@
 - name: Hyundai Motor Company Research Scholar
   description: "Full tuition and stipend for 1 year. Around 30 undergraduate students are selected nationally."
   year: "2020"
+  image: /images/news/2020-hyundai-research-scholar.jpg
+  article-url: https://youtu.be/NjJ2G3LRRK8
+  article-title: "[Research Scholarship] Who Cut In? Who Tried to Cut In?"
+  article-source: YouTube · Hyundai NGV Campus
+  article-icon: fab fa-youtube
+  article-cta: Watch video
 
 - name: SNU Agricultural Development Foundation Scholarship
   description: "Received $1K per semester. Selected based on academic performance."
