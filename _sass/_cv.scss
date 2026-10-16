@@ -156,6 +156,8 @@
 	align-self: start;
 	width: 180px;
 	height: 0;
+	// pull into the unused right edge of the text column so it sits closer to the entry
+	margin-left: -5rem;
 }
 
 .news-thumb img {
