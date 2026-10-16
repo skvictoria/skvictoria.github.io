@@ -1,6 +1,10 @@
 <div class="cv-left-date">{{ degree.years }} {{ degree.years-extra }}</div>
 <div>{{ degree.degree }} <a href="{{ degree.institution-url }}">{{ degree.institution }}</a></div>
 
+{% if degree.image %}
+	<div class="news-photo"><a href="{{ degree.institution-url }}"><img src="{{ degree.image }}" alt="News photo" loading="lazy"></a></div>
+{% endif %}
+
 {% if degree.thesis %}
 	<div class="cv-description">
 		Thesis: <a href="{{ degree.thesis-link }}"><i>{{ degree.thesis }}</i></a>

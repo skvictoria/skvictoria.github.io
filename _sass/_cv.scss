@@ -148,28 +148,21 @@
 	background-color: white;
 }
 
-// News photo in the right margin, linking to the article (left side holds the date).
-// Zero height lets the photo hang beside the entry without stretching short rows.
-.news-thumb {
-	grid-column: gutter-start / screen-end !important;
-	justify-self: start;
-	align-self: start;
-	width: 180px;
-	height: 0;
-	// pull into the unused right edge of the text column so it sits closer to the entry
-	margin-left: -5rem;
+// Small photo under a Recent News item, linking to the article
+.news-photo {
+	margin: 0.4rem 0 0.2rem;
 }
 
-.news-thumb img {
+.news-photo img {
 	display: block;
-	width: 100%;
+	width: 200px;
 	border-radius: 0.5rem;
 	border: 1px solid $black-05;
 }
 
 // Not enough room beside the text column on narrow screens
 @media screen and (max-width: $homepage-pre-mobile) {
-	.pub-thumb, .news-thumb {
+	.pub-thumb {
 		display: none;
 	}
 }
