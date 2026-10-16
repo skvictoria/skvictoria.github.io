@@ -37,6 +37,13 @@
   on-homepage: true
   cv-group: 2
 
+- id: youtube
+  description: "@WubbyTalksAI"
+  color: "#ff0000"
+  class: "fab fa-youtube icon"
+  url: "https://www.youtube.com/@wubbytalksAI"
+  on-homepage: true
+
 - id: cv
   description: CV PDF
   color: "#ba2818"

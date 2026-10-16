@@ -3,6 +3,7 @@ layout: home
 title: Home
 ---
 <div id="top-right-buttons">
+  <a href="https://www.youtube.com/@wubbytalksAI" class="top-button"><i class="fab fa-youtube" aria-hidden="true"></i> @WubbyTalksAI</a>
   <a href="https://seulgi-kim.tistory.com/" class="top-button">Blog</a>
 </div>
 
