@@ -7,6 +7,7 @@
     - Dongyeop Jeon
   year: 2023
   code: US 18/538,386
+  icon: /images/icons/patent-object-position.svg
 
 - title: "Method and Apparatus for Multi-modal Camera based Road Facility"
   authors: 
@@ -14,6 +15,7 @@
     - Minseong Son
   year: 2023
   code: KR 1020230178910
+  icon: /images/icons/patent-road-facility.svg
 
 - title: "Apparatus for Determining a Height of an object outside a Vehicle and a Method for the same"
   authors: 
@@ -24,6 +26,7 @@
     - Dongyeop Jeon
   year: 2023
   code: US 18/505,816
+  icon: /images/icons/patent-object-height.svg
 
 - title: "Method and Apparatus for Determining Vehicle Location based on License Plate Recognition"
   authors: 
@@ -34,6 +37,7 @@
     - Dongyeop Jeon
   year: 2023
   code: KR 1020230087663
+  icon: /images/icons/patent-license-plate.svg
 
 - title: "Apparatus for Determining of Object Position outside Vehicle and Method Thereof"
   authors: 
@@ -44,6 +48,7 @@
     - Dongyeop Jeon
   year: 2023
   code: KR 1020230071042
+  icon: /images/icons/patent-object-position.svg
 
 - title: "Apparatus for Determining of Object Position outside Vehicle and Method Thereof"
   authors: 
@@ -54,6 +59,7 @@
     - Dongyeop Jeon
   year: 2023
   code: KR 1020230062646
+  icon: /images/icons/patent-object-position.svg
 
 - title: "Apparatus for Predicting a Driving Path of a Vehicle and a Method Thereof"
   authors: 
@@ -61,6 +67,7 @@
     - Yimju Kang
   year: 2023
   code: US 18/142,677
+  icon: /images/icons/patent-path-prediction.svg
 
 - title: "Apparatus for Training a Path Prediction Model and a Method Thereof"
   authors: 
@@ -68,12 +75,14 @@
     - Yimju Kang
   year: 2023
   code: US 18/136,687
+  icon: /images/icons/patent-path-training.svg
 
 - title: "Apparatus for Detecting Label Errors in Training Datasets and Method Thereof"
   authors: 
     - Seulgi Kim
   year: 2023
   code: KR 1020230062646
+  icon: /images/icons/patent-label-errors.svg
 
 - title: "Apparatus for Predicting Driving Path of Vehicle and Method Thereof"
   authors: 
@@ -81,6 +90,7 @@
     - Yimju Kang
   year: 2022
   code: KR 1020220145334
+  icon: /images/icons/patent-path-prediction.svg
 
 - title: "Apparatus for Training Path Prediction Model and Method Thereof"
   authors: 
@@ -88,6 +98,7 @@
     - Yimju Kang
   year: 2022
   code: KR 1020220145335
+  icon: /images/icons/patent-path-training.svg
 
 - title: "Method for Controlling Seat Position based Learning"
   authors: 
@@ -97,3 +108,4 @@
     - Hyojeong Lee
   year: 2021
   code: KR 1020210160162
+  icon: /images/icons/patent-seat-position.svg

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="52" fill="#fbfbfb" stroke="#cfcfcf" stroke-width="1.5"/>
+  <line x1="16" y1="80" x2="104" y2="80" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16,73 L20,67 Q22,64 26,64 L38,64 Q42,64 45,68 L50,69 Q52,70 52,73 L52,76 L16,76 Z" fill="#1f6fd1"/>
+  <path d="M23,68 L25,66 L32,66 L32,69 Z M34,66 L39,66 L42,69 L34,69 Z" fill="#e8f1fc"/>
+  <circle cx="24" cy="76" r="3.6" fill="#333"/><circle cx="44" cy="76" r="3.6" fill="#333"/>
+  <path d="M84,80 L90,62 L96,80 Z" fill="#f39c3d"/><rect x="85" y="69" width="10" height="3" fill="#fff"/>
+  <path d="M57.0,64.0 A10,10 0 0 1 57.0,76.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.1;0.3;1" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </path>
+  <path d="M61.0,59.2 A18,18 0 0 1 61.0,80.8" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.30000000000000004;0.5;1" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </path>
+  <path d="M65.0,54.4 A26,26 0 0 1 65.0,85.6" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.5;0.7;1" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </path>
+  <g><path d="M90,56 C87,51 83,48 83,43 A7,7 0 1 1 97,43 C97,48 93,51 90,56 Z" fill="#e8504f"/><circle cx="90" cy="43" r="2.6" fill="#fff"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" keyTimes="0;0.5;1" dur="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></g>
+</svg>

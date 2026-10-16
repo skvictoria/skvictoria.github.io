@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="52" fill="#fbfbfb" stroke="#cfcfcf" stroke-width="1.5"/>
+  <line x1="16" y1="92" x2="104" y2="92" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+  <rect x="30" y="86" width="60" height="4" rx="2" fill="#90a4ae"/>
+  <g><path d="M40,74 L74,74 Q80,74 80,80 L80,82 L40,82 Q36,82 36,78 Z" fill="#5c6bc0"/><g><path d="M40,76 L32,40 Q31,34 37,34 L41,34 Q45,34 46,39 L50,74 Z" fill="#7986cb"/><rect x="30" y="24" width="15" height="10" rx="4" fill="#7986cb"/><animateTransform attributeName="transform" type="rotate" values="0 46 76;-14 46 76;-14 46 76;0 46 76" keyTimes="0;0.35;0.75;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1"/></g><rect x="56" y="82" width="6" height="5" fill="#455a64"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;10 0;10 0;0 0" keyTimes="0;0.35;0.75;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1"/>
+  </g>
+  <path d="M88,34 L90,40 L96,42 L90,44 L88,50 L86,44 L80,42 L86,40 Z" fill="#ffb300">
+    <animate attributeName="opacity" values="0.3;1;0.3" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </path>
+</svg>

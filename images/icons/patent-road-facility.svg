@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="52" fill="#fbfbfb" stroke="#cfcfcf" stroke-width="1.5"/>
+  <line x1="16" y1="88" x2="104" y2="88" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+  <rect x="20" y="34" width="22" height="15" rx="3" fill="#455a64"/>
+  <circle cx="31" cy="41.5" r="4.6" fill="#90caf9" stroke="#fff" stroke-width="1.5"/>
+  <rect x="26" y="30" width="8" height="5" rx="1.5" fill="#455a64"/>
+  <line x1="31" y1="49" x2="31" y2="88" stroke="#78909c" stroke-width="3"/>
+  <path d="M42,38 L92,30 L92,74 L42,46 Z" fill="#ffd54f" opacity="0.15">
+    <animate attributeName="opacity" values="0.08;0.35;0.08" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </path>
+  <line x1="82" y1="60" x2="82" y2="88" stroke="#78909c" stroke-width="3"/>
+  <path d="M82,38 L95,61 L69,61 Z" fill="#fff" stroke="#e8504f" stroke-width="3.2" stroke-linejoin="round"/>
+  <rect x="80.7" y="46" width="2.6" height="7" rx="1" fill="#333"/><circle cx="82" cy="56.5" r="1.5" fill="#333"/>
+  <rect x="64" y="33" width="36" height="33" rx="3" fill="none" stroke="#1f9d55" stroke-width="2" stroke-dasharray="4 3" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3;0.45;0.9;1" dur="3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+</svg>

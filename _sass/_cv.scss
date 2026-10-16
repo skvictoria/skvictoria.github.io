@@ -124,6 +124,12 @@
 	width: 90px;
 }
 
+// Patent entries have three rows (title, authors, number) and sit more tightly
+.pub-thumb.pub-thumb-patent {
+	grid-row: span 3;
+	width: 64px;
+}
+
 .pub-thumb.pub-thumb-icon img {
 	border: none;
 	background-color: transparent;

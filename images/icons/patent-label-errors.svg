@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="52" fill="#fbfbfb" stroke="#cfcfcf" stroke-width="1.5"/>
+  <rect x="22" y="30" width="35" height="27" rx="3" fill="#e3f2fd" stroke="#90a4ae" stroke-width="1.2"/>
+  <path d="M26,53 L35,43 L41,49 L46,45 L53,53 Z" fill="#90caf9"/>
+  <rect x="44" y="26" width="15" height="9" rx="2.5" fill="#1f9d55"/>
+  <path d="M48,30.5 L50.5,33 L55,28" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="63" y="30" width="35" height="27" rx="3" fill="#e3f2fd" stroke="#90a4ae" stroke-width="1.2"/>
+  <path d="M67,53 L76,43 L82,49 L87,45 L94,53 Z" fill="#90caf9"/>
+  <rect x="85" y="26" width="15" height="9" rx="2.5" fill="#1f9d55"/>
+  <path d="M89,30.5 L91.5,33 L96,28" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="22" y="64" width="35" height="27" rx="3" fill="#e3f2fd" stroke="#90a4ae" stroke-width="1.2"/>
+  <path d="M26,87 L35,77 L41,83 L46,79 L53,87 Z" fill="#90caf9"/>
+  <rect x="44" y="60" width="15" height="9" rx="2.5" fill="#1f9d55"/>
+  <path d="M48,64.5 L50.5,67 L55,62" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="63" y="64" width="35" height="27" rx="3" fill="#e3f2fd" stroke="#90a4ae" stroke-width="1.2"/>
+  <path d="M67,87 L76,77 L82,83 L87,79 L94,87 Z" fill="#90caf9"/>
+  <rect x="85" y="60" width="15" height="9" rx="2.5" fill="#1f9d55">
+    <animate attributeName="fill" values="#1f9d55;#1f9d55;#e8504f;#e8504f;#1f9d55" keyTimes="0;0.55;0.65;0.92;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <text x="92.5" y="67.6" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8" font-weight="bold" fill="#fff" opacity="0">!
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.55;0.65;0.92;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </text>
+  <g>
+    <circle cx="36" cy="40" r="9" fill="#fff" fill-opacity="0.35" stroke="#455a64" stroke-width="3"/>
+    <line x1="42.5" y1="46.5" x2="50" y2="54" stroke="#455a64" stroke-width="4" stroke-linecap="round"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;41 0;0 34;41 34;41 34;0 0" keyTimes="0;0.18;0.36;0.55;0.92;1" dur="4s" repeatCount="indefinite"/>
+  </g>
+</svg>
