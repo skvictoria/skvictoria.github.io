@@ -2,9 +2,9 @@
 <a class="news-card" href="{{ include.url }}">
 	<img src="{{ include.image }}" alt="" loading="lazy">
 	<span class="news-card-body">
-		<span class="news-card-source"><i class="fas fa-newspaper" aria-hidden="true"></i> {{ include.source }}{% if include.date %} &middot; {{ include.date }}{% endif %}</span>
+		<span class="news-card-source"><i class="{{ include.icon | default: 'fas fa-newspaper' }}" aria-hidden="true"></i> {{ include.source }}{% if include.date %} &middot; {{ include.date }}{% endif %}</span>
 		<span class="news-card-title">{{ include.title }}</span>
-		<span class="news-card-more">Read article <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+		<span class="news-card-more">{{ include.cta | default: "Read article" }} <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
 	</span>
 </a>
 </div>

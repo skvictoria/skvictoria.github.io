@@ -17,6 +17,12 @@
 - name: 2021 Hyundai Motor Company Idea Festival
   description: "Gold Prize (2nd place) in the Idea Festival among 100+ teams from Hyundai Motor Company."
   year: "2021"
+  image: /images/news/2021-hyundai-idea-festival.jpg
+  article-url: https://www.youtube.com/watch?v=ti5-qb5g158
+  article-title: "2021 Idea Festival: Real-Vehicle Prototyping Category – FMC"
+  article-source: YouTube · Hyundai Motor Group Namyang R&D Center
+  article-icon: fab fa-youtube
+  article-cta: Watch video
 
 - name: Hyundai Motor Company Research Scholar
   description: "Full tuition and stipend for 1 year. Around 30 undergraduate students are selected nationally."
