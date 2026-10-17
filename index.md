@@ -121,6 +121,11 @@ title: Home
 {% endfor %}
 
 ## Service
+<div class="cv-service-title"><b>Session Chair</b></div>
+{% for venue in site.data.organizer %}
+{% include cv/venue.html venue=venue %}
+{% endfor %}
+
 <div class="cv-service-title"><b>Reviewer</b></div>
 {% for venue in site.data.reviewer %}
 {% include cv/venue.html venue=venue %}
