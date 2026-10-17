@@ -1,6 +1,5 @@
-- venue: ML4Seismic Industry Partners Meeting
-  venue-shorthand: ML4Seismic
-  venue-at: Georgia Tech
+- venue: ML4Seismic
+  venue-at: Coda, 756 W Peachtree St NW, Atlanta, GA 30308
   years:
     - year: 2025
       url: https://alregib.ece.gatech.edu/ml4seismic/ml4seismic-2025/
