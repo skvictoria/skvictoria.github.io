@@ -4,6 +4,7 @@
 {% for talk in title.items %}
 <div class="cv-left-date">{{ talk.month }} {{ talk.year }}</div>
 <div>{{ talk.location }}</div>
+{% if talk.role %}<div>{{ talk.role }}</div>{% endif %}
 {% if talk.description %}{% assign description=talk.description %}{% endif %}
 {% if talk.image %}{% assign article=talk %}{% endif %}
 {% endfor %}
