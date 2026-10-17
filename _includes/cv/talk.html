@@ -1,4 +1,5 @@
 <div><b>{{ title.name }}</b></div>
+{% assign description = nil %}
 
 {% for talk in title.items %}
 <div class="cv-left-date">{{ talk.month }} {{ talk.year }}</div>
@@ -6,9 +7,9 @@
 {% if talk.description %}{% assign description=talk.description %}{% endif %}
 {% if talk.image %}{% assign article=talk %}{% endif %}
 {% endfor %}
-<div class="cv-description">{{ description }}</div>
+{% if description %}<div class="cv-description">{{ description }}</div>{% endif %}
 {% if article %}
-{% include cv/news-card.html url=article.article-url image=article.image source=article.article-source date=article.article-date title=article.article-title %}
+{% include cv/news-card.html url=article.article-url image=article.image source=article.article-source date=article.article-date title=article.article-title icon=article.article-icon cta=article.article-cta %}
 {% assign article = nil %}
 {% endif %}
 
