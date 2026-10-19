@@ -1,9 +1,9 @@
 - name: IEEE ICIP Student Travel Award
-  description: "Selected as a recipient of the Student Travel Award."
+  description: "Selected as a recipient of the Student Travel Award ($250)."
   year: "2026"
 
 - name: IEEE ICIP Student Travel Award
-  description: "Selected as a recipient of the Student Travel Award."
+  description: "Selected as a recipient of the Student Travel Award ($650)."
   year: "2025"
 
 - name: 2025 GTA Excellence Award
@@ -13,6 +13,10 @@
 - name: 2025 Outstanding GTA Award
   description: "Outstanding GTA (Top 1) in the ECE department at Georgia Tech."
   year: "2025"
+
+- name: 2021 Hyundai Motor Group Conference
+  description: "First authored publication, Top 10 Excellence Paper from Hyundai Motor Company"
+  year: "2021"
 
 - name: 2021 Hyundai Motor Company Idea Festival
   description: "Gold Prize (2nd place) in the Idea Festival among 100+ teams from Hyundai Motor Company."
@@ -57,7 +61,3 @@
 - name: 2017 SNU Debate Contest
   description: "Bronze Prize (Top 3) in the contest among 30+ teams from Seoul National University."
   year: "2017"
-
-- name: SNU Debate and Speech Club "Acropolis"
-  description: "Vice President."
-  year: "2017 - 2018"
