@@ -7,7 +7,9 @@
   year: "May 2026 — Augst 2026"
   type: industry
   description:
-    - "Research on VLM-as-a-judge for subtle visual hallucination detection"
+    - "Developed an VLM-as-a-judge model for Amazon Merch on Demand to evaluate the quality of t-shirt designs."
+    - "First-authored a paper (under review) for enhancing visual modality utilization in VLMs."
+
 
 - institution: Amazon
   location: "Austin, TX"
