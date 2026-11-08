@@ -1,10 +1,11 @@
-- institution: Cristo Rey Atlanta Jesuit High School
+- institution: Georgia Institute of Technology
   position: Volunteer Tutor
   location: "Atlanta, GA"
   year: Fall 2026
   class: "Cristo Rey Atlanta Jesuit High School"
   description: "Tutored Integrated Math 1,2,3, or AP Precalculus for high school students."
-  institution-url: https://www.cristoreyatlanta.org/
+  institution-url: http://gatech.edu
+  class-url: https://www.cristoreyatlanta.org/
   ta: false
 
 - institution: Georgia Institute of Technology
