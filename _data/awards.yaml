@@ -1,9 +1,13 @@
-- name: IEEE ICIP Student Travel Award
-  description: "Selected as a recipient of the Student Travel Award ($250)."
+- name: IEEE WACV Travel Award
+  description: "Selected as a recipient of the Travel Award ($525)."
   year: "2026"
 
-- name: IEEE ICIP Student Travel Award
-  description: "Selected as a recipient of the Student Travel Award ($650)."
+- name: IEEE ICIP Travel Award
+  description: "Selected as a recipient of the Travel Award ($250)."
+  year: "2026"
+
+- name: IEEE ICIP Travel Award
+  description: "Selected as a recipient of the Travel Award ($650)."
   year: "2025"
 
 - name: 2025 GTA Excellence Award
